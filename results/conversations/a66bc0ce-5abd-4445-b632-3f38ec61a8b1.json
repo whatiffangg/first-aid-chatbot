@@ -1,0 +1,183 @@
+{
+  "answer": "หากผู้ใหญ่เจ็บหน้าอกรุนแรงแล้วล้มไม่ตอบสนองและหายใจเฮือก (agonal gasping) ซึ่งไม่ใช่การหายใจปกติ แสดงว่ามีภาวะหัวใจหยุดเต้น ต้องเริ่มทำ CPR ทันที [S2][S4]  \n\nขั้นตอนการช่วย:  \n1. ตรวจสอบความปลอดภัย แล้วสั่งให้คนอื่นโทร 1669 หรือ 999 ขอความช่วยเหลือทันที [S2]  \n2. วางผู้ป่วยลงบนพื้น นั่งอยู่ใกล้ ใช้ฝ่ามือที่ปลายมือวางที่กลางหน้าอก ใช้มืออีกมือวางบนมือแรก จับกันที่นิ้ว ดันหน้าอกลงอย่างแรง ลึกประมาณ 5-6 ซม. ที่ความเร็ว 100-120 ครั้งต่อนาที [S1][S5]  \n3. ทำการดันหน้าอก 30 ครั้ง แล้วให้หายใจช่วย 2 ครั้ง โดยเปิดทางเดินหายใจ หันศีรษะกลับ ยกคอ ปิดจมูกด้วยนิ้ว หายใจเข้าแล้วสูดลมเข้าผ่านปากผู้ป่วย จนหน้าอกขึ้น [S1]  \n4. ต่อเนื่องการทำ CPR จนได้รับการช่วยเหลือจากแพทย์  \n\nหากไม่สามารถให้หายใจช่วยได้ ให้ทำการดันหน้าอกต่อไปเท่านั้น [S1]  \n\n**ห้าม** รอให้ผู้ป่วยหายใจปกติ หรือพยายามดูแลหัวใจวายโดยไม่ทำ CPR [S2][S4]  \n\nหากสงสัยว่ามีการบาดเจ็บที่กระดูกสันหลัง ให้จัดท่าพักฟื้นโดยรักษาเส้นทางหัวใจให้เปิด [S7]  \n\nเริ่มทำ CPR ทันทีเมื่อพบอาการไม่ตอบสนองและหายใจเฮือก เพราะเป็นสัญญาณของภาวะหัวใจหยุดเต้น [S4]",
+  "usage": {
+    "completion_tokens": 573,
+    "prompt_tokens": 2220,
+    "total_tokens": 2793,
+    "prompt_tokens_details": {
+      "cached_tokens": 1030
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่เจ็บหน้าอกรุนแรงแล้วล้มไม่ตอบสนองและหายใจเฮือก การช่วยต้องเปลี่ยนจากดูแลหัวใจวายไปเป็น CPR อย่างไร?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 10.103,
+  "contexts": [
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.7746071556475218,
+      "retrieval": "vector"
+    },
+    {
+      "id": "89f9dff4-02be-5e25-b273-b6dc3fc67eb7",
+      "document_id": "cpr",
+      "section_index": 0,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "If someone is unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Learn what to do. Emergency advice What is CPR? CPR stands for cardiopulmonary resuscitation. It combines chest compressions and rescue breaths to give a person the best chance of survival following a cardiac arrest. If an adult is unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. What to do If you find someone collapsed, make sure it's safe to approach. Check if they respond by gently shaking their shoulders and asking them loudly, 'are you ok?'. If they don't respond, shout for help and open their airway by gently tilting the casualty's head back and lifting their chin. Look, listen, and feel for up to 10 seconds for normal breathing. Ignore occasional, irregular gasps - these are common in the early stages of cardiac arrest. If they are not breathing normally, ask a helper to call 999 or 112 for an ambulance while you start CPR. Ask a helper to find and bring a defibrillator, if available. Ask your helper to put the phone on speaker and hold it out towards you.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.7502577966838798,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.7011190258455149,
+      "retrieval": "vector"
+    },
+    {
+      "id": "95a14b1c-7a34-5eca-a314-176be5cb61c9",
+      "document_id": "primary-survey",
+      "section_index": 1,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help. Airway. Next, you need to check that the airway is open and clear. Open the airway by placing one hand on the forehead to tilt the head back and use two fingers from the other hand to lift the chin. Breathing. You now need to check if the casualty is breathing normally. Keep the airway held open, place your ear above their mouth and look down at their chest. Listen for sounds of breathing and see if you can feel their breath on your cheek. Watch to see if their chest moves. Do this for no more than 10 seconds. Please note: During the first minutes of cardiac arrest, about half of casualties will do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6722863206826377,
+      "retrieval": "vector"
+    },
+    {
+      "id": "746020a3-00c3-5b64-8a38-b420de6e1916",
+      "document_id": "drowning",
+      "section_index": 1,
+      "title_th": "จมน้ำ",
+      "aliases": "จมน้ำ ไม่หายใจ น้ำ กู้ชีพ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:56.938988+00:00",
+      "text": "available. If you are on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Do not leave the casualty to look for a defibrillator yourself, the ambulance will bring one. Check the airway is open before giving five initial rescue breaths . This is done by placing one hand on the forehead and two fingers (of your other hand) underneath the tip of the chin. Using the hand on the forehead, pinch the casualty's nose with your finger and thumb, allowing the casualty's mouth to fall open. Take a breath and place your lips around the casualty's mouth, forming a seal. Blow into the casualty's mouth until the chest rises. Follow by beginning chest compressions. Kneel by the casualty and put the heel of your hand in the middle of their chest. Put your other hand on top of the first. Interlock your fingers, making sure they don't touch the ribs. Keep your arms straight and lean over the casualty. Press down hard, to a third of the depth of the chest , then allow the chest to come back up. After 30 chest compressions, give two rescue breaths. Repeat this at a rate of 100-120 compressions per minute.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6621373149238252,
+      "retrieval": "vector"
+    },
+    {
+      "id": "25681d43-8f43-57a6-a892-00fa495a9a3b",
+      "document_id": "how-to-use-a-defibrillator",
+      "section_index": 1,
+      "title_th": "เครื่อง AED",
+      "aliases": "เออีดี เครื่องกระตุกหัวใจ ไฟฟ้า กู้ชีพ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/how-to-use-a-defibrillator/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:37.211905+00:00",
+      "text": "time buyers. For more information on where to access a defibrillator and different casualty scenarios, please read our Defibrillators - guide for rescuers. Please visit our online shop if you would like to buy a defibrillator . What to do After performing a primary survey , and you find someone is unresponsive and not breathing normally, ask a helper to call 999 or 112 and ask for an ambulance while you start CPR . Ask a helper to find and bring a defibrillator, if available. Do not leave a casualty to look for a defibrillator yourself. If there is someone else there, send them to get one. The emergency call handler will tell them where the nearest defibrillator is. If you're on your own, use the hands-free speaker on a phone so you can start CPR while speaking to the emergency call handler. When the helper returns with a defibrillator, ask for it to be switched on (some will have an on/off button whilst others will turn on when their case is opened). Once turned on, follow the verbal instructions from the defibrillator. Your helper should remove or cut through clothing to get to the casualty's bare chest. Dry the chest if it is wet and place the pads as shown while you continue CPR.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.600784795508108,
+      "retrieval": "graph"
+    },
+    {
+      "id": "7bc1bbda-f65d-5781-8949-563a102dc3e3",
+      "document_id": "recovery-position",
+      "section_index": 1,
+      "title_th": "ท่าพักฟื้น",
+      "aliases": "หมดสติ ไม่รู้สึกตัว หายใจปกติ ท่าพักฟื้น ตะแคง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:38.016286+00:00",
+      "text": "their other arm across their chest and place the back of their hand against the cheek nearest to you. Hold it there. With your other hand, pull their far knee up so that their foot is flat on the floor. Keeping the back of the casualty’s hand pressed against their cheek, pull on the far leg to roll the casualty towards you onto their side. You can then adjust the top leg so that it is bent at a right angle. Gently tilt the casualty’s head back and lift their chin to make sure their airway stays open. You can adjust the hand under their cheek to do this. Call 999 or 112 for emergency help if it hasn’t already been done. Monitor their level of response while waiting for help to arrive. If they remain in the recovery position for 30 minutes, roll them into the recovery position on the other side. Spinal recovery position If you suspect someone has a spinal injury and they cannot maintain an open airway, you need to place them in the recovery position. If you are alone, place them in the recovery position following the normal technique. Try to keep the head and spine in a straight line where possible while maintaining an open airway.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5616339981019928,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "how-to-use-a-defibrillator",
+      "steps": [
+        {
+          "from": "topic:cpr",
+          "to": "topic:how-to-use-a-defibrillator",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/cpr/",
+            "https://www.sja.org.uk/first-aid-advice/how-to-use-a-defibrillator/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "recovery-position",
+      "steps": [
+        {
+          "from": "topic:primary-survey",
+          "to": "topic:recovery-position",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+            "https://www.sja.org.uk/first-aid-advice/recovery-position/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    1,
+    2,
+    4,
+    5,
+    7
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "a66bc0ce-5abd-4445-b632-3f38ec61a8b1",
+  "created_at": "2026-10-12T07:42:46.891758+00:00"
+}

@@ -1,0 +1,122 @@
+{
+  "answer": "หากผู้ใหญ่สงสัยว่าเป็นลมแดดและหมดสติ แต่ยังหายใจปกติและไม่มีอุบัติเหตุร่วม ควรดำเนินการดังนี้:\n\n1. ลดความร้อนทันที: ย้ายผู้ป่วยไปที่ที่เย็น ร่มเงา ถอดเสื้อผ้าที่สวมอยู่ ใช้ผ้าชุ่มด้วยน้ำเย็นหรือพันผ้าเย็นรอบแขนและคอ เพื่อช่วยให้ร่างกายเย็นลง [S2]  \n\n2. ขณะที่ลดความร้อน ตรวจสอบอาการอย่างต่อเนื่อง เช่น การหายใจ ชีพจร และระดับการตอบสนอง [S1]  \n\n3. หากผู้ป่วยไม่ตอบสนองแต่ยังหายใจปกติ ให้จัดท่าพักฟื้น (recovery position) เพื่อป้องกันการกัดตัวและรักษาทางเดินหายใจเปิด [S5]  \n\n4. หลังจากลดความร้อนแล้ว ควรเรียกสายด่วน 1669 ทันที เพราะลมแดดอาจเป็นภาวะรุนแรงที่ต้องรักษาในโรงพยาบาล [S2]  \n\nควรดำเนินการทั้งสองขั้นตอนพร้อมกัน ไม่ควรรอให้ผู้ป่วยร้อนมากขึ้นหรือหมดสติเพิ่มเติม [S1]",
+  "usage": {
+    "completion_tokens": 365,
+    "prompt_tokens": 1485,
+    "total_tokens": 1850,
+    "prompt_tokens_details": {
+      "cached_tokens": 1153
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่สงสัยลมแดดหมดสติ แต่ตรวจแล้วยังหายใจปกติและไม่มีอุบัติเหตุร่วม ควรเชื่อมการลดความร้อนกับท่าพักฟื้นอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 6.408,
+  "contexts": [
+    {
+      "id": "25b385dd-28a2-548b-bd40-52de39ec9740",
+      "document_id": "heatstroke",
+      "section_index": 1,
+      "title_th": "ลมแดด",
+      "aliases": "ลมแดด ฮีทสโตรก ตัวร้อน สับสน อากาศร้อน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.275567+00:00",
+      "text": "them down with cold water to keep them cool. If available, use cold packs placed in the armpits and around the neck. Once their temperature seems to have gone back to normal, replace the wet sheet with a dry sheet. While waiting for help to arrive, keep checking their temperature, as well as their breathing, pulse, and level of response. Be prepared to put them in the recovery position if they become unresponsive. If they start getting hot again, repeat the cooling process to lower their temperature. Occasionally, someone with heatstroke may experience seizures . Be prepared to recognise and treat these as appropriate.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.7116700675031704,
+      "retrieval": "vector"
+    },
+    {
+      "id": "86965b79-ee86-539f-ae88-c81170c0426e",
+      "document_id": "heatstroke",
+      "section_index": 0,
+      "title_th": "ลมแดด",
+      "aliases": "ลมแดด ฮีทสโตรก ตัวร้อน สับสน อากาศร้อน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.275567+00:00",
+      "text": "Heatstroke is more serious than heat exhaustion and can be life-threatening. Emergency advice What is heatstroke? Heatstroke is caused by a failure of the 'thermostat' in the brain which regulates the body’s temperature. This means the body is unable to cool down when it becomes too hot. It can be caused by spending too much time in the sun, having a high fever, or from taking recreational drugs such as ecstasy. It can also occur after heat exhaustion when sweating ceases. Your priority is to cool the casualty down as quickly as possible and get them to hospital. Signs and symptoms Look for: headache, dizziness, and discomfort restlessness, confusion, or unusual behaviour hot flushed and dry skin fast deterioration in the level of response a full bounding pulse body temperature above 40°C (104°F). What to do Move them to a cool, shaded place and remove their outer clothing if possible. Call 999 or 112 for emergency help. Sit them down and wrap them in a cool, wet sheet. If there isn’t a sheet available, fan them or sponge them down with cold water to keep them cool. If available, use cold packs placed in the armpits and around the neck. Once their temperature seems to have gone back to normal, replace the wet sheet with a dry sheet.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.605019542225582,
+      "retrieval": "vector"
+    },
+    {
+      "id": "cd238076-c1ed-5b14-b541-23fa8f3c45f5",
+      "document_id": "heat-exhaustion",
+      "section_index": 1,
+      "title_th": "เพลียแดด",
+      "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.901831+00:00",
+      "text": "direct sun during the hottest part of the day, from 11am to 3pm. Heat exhaustion isn't always caused by weather and can be a consequence of the body producing more heat than it can lose during vigorous or endurance exercise. Some prescribed medications can make people more susceptible to heat illness. For example, Selective Serotonin Reuptake Inhibitors (SSRIs) like Sertraline and Tricyclic Antidepressants like Amitriptyline. Recreational drugs such as ecstasy can also affect a person's ability to regulate their temperature. It is important to spot and treat heat exhaustion, as it can lead to heatstroke . Signs and symptoms Look for: dizziness and confusion loss of appetite and feeling sick sweating with pale, clammy skin cramps in the arms, legs, and stomach fast, weakening pulse and rapid breathing What to do Help them to lie down in a cool, shaded place and raise their legs. Give them lots of water to drink. They can also have isotonic sports drinks. Check their breathing, pulse, and responsiveness. Suggest they get medical advice. Call 999 or 112 if you are concerned.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.581895878462148,
+      "retrieval": "vector"
+    },
+    {
+      "id": "32249a79-be54-5d3d-9a3c-54f0444e7d23",
+      "document_id": "heat-exhaustion",
+      "section_index": 0,
+      "title_th": "เพลียแดด",
+      "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.901831+00:00",
+      "text": "Heat exhaustion usually happens to people who aren't used to hot, humid weather. Find out what to look for and how to perform first aid. Emergency advice What is heat exhaustion? Long periods in the sun can lead to heat exhaustion. Heat exhaustion is caused by a loss of salt and water from the body, usually through excessive sweating. It develops slowly and usually happens to people who aren’t used to hot, humid weather. If you’re at a festival, a sports match, or an outdoor event, and it’s very hot, it’s easy to suffer from heat exhaustion. Prevention is best, so always try to stay well hydrated by drinking plenty of water (but not too much, drink to thirst), wear light and loose-fitting clothing, a wide-brimmed sun hat, and sun cream. Try to keep out of the direct sun during the hottest part of the day, from 11am to 3pm. Heat exhaustion isn't always caused by weather and can be a consequence of the body producing more heat than it can lose during vigorous or endurance exercise.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5587764680602016,
+      "retrieval": "vector"
+    },
+    {
+      "id": "40b8a16d-409c-583c-a20d-abd4a38e25c9",
+      "document_id": "recovery-position",
+      "section_index": 0,
+      "title_th": "ท่าพักฟื้น",
+      "aliases": "หมดสติ ไม่รู้สึกตัว หายใจปกติ ท่าพักฟื้น ตะแคง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:38.016286+00:00",
+      "text": "It’s safe to place someone in the recovery position who is not responding to you but is breathing normally. Learn what to do. Emergency advice When to put someone in the recovery position It’s safe to place someone in the recovery position who is not responding to you but is breathing normally. When someone is put into the recovery position, their airway is kept open and any vomit can drain away without interfering with their breathing. What to do If you find someone collapsed, you should first perform a primary survey . If it shows that they are unresponsive but breathing, put them in the recovery position. Kneel by the casualty and straighten their legs. If they are wearing glasses, or have any bulky items in their pockets, remove them. Do not search their pockets for small items. Place the arm that is nearest to you at a right angle to their body, with the elbow bent and their palm facing upwards. Bring their other arm across their chest and place the back of their hand against the cheek nearest to you. Hold it there. With your other hand, pull their far knee up so that their foot is flat on the floor.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5547596540072257,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2,
+    5
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "222293f1-7106-409a-8699-c6d11ee152ec",
+  "created_at": "2026-10-12T07:39:57.044774+00:00"
+}

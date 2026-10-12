@@ -1,0 +1,123 @@
+{
+  "answer": "หากผู้ใหญ่มีแผลเลือดออกมากและมีอาการซีดตัว ผิวเย็น เหงื่อออก ควรดำเนินการดังนี้:\n\n1. **หยุดเลือดออกทันที**  \nใช้แรงกดที่แน่นบนแผลด้วยผ้าสะอาดหรือผ้ากันน้ำ ถ้ามีวัตถุอยู่ในแผล อย่าดึงออก แต่กดด้านข้างเพื่อปิดแผล [S4]\n\n2. **วางผู้ป่วยให้หงาย**  \nช่วยให้ผู้ป่วยนอนราบ ยกขาขึ้นเหนือระดับหัวใจ เพื่อเพิ่มการไหลเวียนเลือดไปยังอวัยวะสำคัญ [S1][S2]\n\n3. **ผ่อนคลายเสื้อผ้าที่แน่น**  \nผ่อนคลายเสื้อผ้ารอบคอ หน้าท้อง และหน้าอก เพื่อให้เลือดไหลเวียนได้ดี [S1][S2]\n\n4. **รักษาความร้อน**  \nคลุมผู้ป่วยด้วยผ้าหรือผ้าห่มเพื่อป้องกันความเย็น [S1][S2]\n\n5. **สังเกตอาการ**  \nติดตามอาการ เช่น หายใจเร็ว ผิวซีด หรือหมดสติ หากผู้ป่วยหมดสติ ควรเตรียมการให้การช่วยชีวิตด้วยการช่วยหายใจหรือทำ CPR ทันที [S1][S5]\n\n6. **โทร 1669 ทันที**  \nแจ้งว่าผู้ป่วยมีเลือดออกมากและอาจเป็นภาวะช็อก ให้เจ้าหน้าที่รับมือ [S1][S2]\n\nการดูแลทั้งการหยุดเลือดและภาวะช็อกต้องทำพร้อมกันเพื่อช่วยชีวิตอย่างมีประสิทธิภาพ [S1][S5]",
+  "usage": {
+    "completion_tokens": 497,
+    "prompt_tokens": 1413,
+    "total_tokens": 1910,
+    "prompt_tokens_details": {
+      "cached_tokens": 197
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่มีแผลเลือดออกมาก แล้วซีดตัวเย็นเหงื่อออก ต้องเชื่อมการห้ามเลือดกับการดูแลภาวะช็อกอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 8.467,
+  "contexts": [
+    {
+      "id": "bbf63af9-9b8c-5227-97ce-db74fc9ae7ff",
+      "document_id": "shock",
+      "section_index": 1,
+      "title_th": "ภาวะช็อก",
+      "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/shock/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:40.771261+00:00",
+      "text": "supply decreases yawning and gasping for air the casualty could become unresponsive. What to do First, treat any cause of shock that you can see or that you have identified from the primary survey , such as severe bleeding . Then help the casualty to lie down. Raise their legs, supporting them on a chair. This will help to improve the blood supply to their vital organs. If available, lay them down on a rug or blanket to protect them from the cold. Call 999 or 112 for emergency help and tell ambulance control you think they are in shock. If possible, explain what you think caused it. Loosen any tight clothing around the neck, chest, and waist to make sure it doesn’t constrict their blood flow. While waiting for help to arrive, cover them with a coat or blanket to help keep them warm. Remember, fear and pain can make shock worse by increasing the body’s demand for oxygen, so try to reassure the casualty and keep them calm if you can. Monitor their level of response. If they become unresponsive at any point, prepare to treat them as an unresponsive casualty.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6524869225473153,
+      "retrieval": "vector"
+    },
+    {
+      "id": "b21f5931-491c-5b4b-9ce1-04a6a8c80d35",
+      "document_id": "severe-bleeding",
+      "section_index": 2,
+      "title_th": "เลือดออกรุนแรง",
+      "aliases": "ห้ามเลือด เลือดออก แผลฉีกขาด กดแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.980378+00:00",
+      "text": "the nails or the skin beyond the bandage for five seconds until it turns pale, then release the pressure. If the colour does not return within two seconds, the bandage is too tight. If necessary, loosen and reapply the bandage. The loss of blood could cause the casualty to develop shock. Treat them for this by helping them to lie down on a rug or blanket. Raise and support their legs, so that they are above the level of their heart. You should then loosen any tight clothing around their neck, chest, and waist and cover the casualty with a blanket to keep them warm. If blood comes through the dressing, remove it and reapply pressure with a new dressing or pad to control the bleeding. Once the bleed is under control, secure the dressing in place with the bandage, tying the knot over the wound to keep the pressure applied. Support the injured part with a sling or bandage. Keep checking the circulation beyond the bandage every 10 minutes. Keep monitoring their level of response until help arrives. If they become unresponsive at any point, prepare to start CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6471852184981299,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4d38830d-2eee-5a4c-ae81-1bfa165dfd3f",
+      "document_id": "nosebleed",
+      "section_index": 1,
+      "title_th": "เลือดกำเดา",
+      "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:44.442320+00:00",
+      "text": "of 10 minutes. Once the bleeding has stopped, ask them to keep leaning forwards while you clean around their nose with lukewarm water. Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots. If the bleeding is severe, or if it lasts more than 30 minutes, call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6327737038236989,
+      "retrieval": "vector"
+    },
+    {
+      "id": "e56188a0-8620-5f38-aa0a-467b6c0bd628",
+      "document_id": "severe-bleeding",
+      "section_index": 0,
+      "title_th": "เลือดออกรุนแรง",
+      "aliases": "ห้ามเลือด เลือดออก แผลฉีกขาด กดแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.980378+00:00",
+      "text": "When bleeding is severe, it can be dramatic and distressing. Acting quickly is vital. Find out what to do. Emergency advice What is severe bleeding? When bleeding is severe, it can be dramatic and distressing. If severe bleeding isn’t controlled quickly, it is possible for someone to lose a lot of blood, become unresponsive, and possibly develop shock . Shock is a life-threatening emergency, caused when the body doesn't have sufficient blood circulating to supply the vital organs with oxygen. Your priority is to stop the bleeding. What to do With open wounds there’s a risk of infection, so wear protective first aid gloves (if available) to help prevent any infection passing between you both. Apply direct firm pressure to the wound using a sterile dressing if possible or a clean non-fluffy cloth to stop the bleeding. If you don't have a dressing, you can ask the casualty to do this themselves. If the wound is covered by the casualty's clothing, remove or cut the clothes to uncover the wound. If there’s an object in the wound, don’t pull it out. It may be acting as a plug to reduce the bleeding Instead, apply pressure on either side of the object to push the edges together.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6320108547839731,
+      "retrieval": "vector"
+    },
+    {
+      "id": "7e08ab77-b866-5111-bf62-0a364037c41d",
+      "document_id": "shock",
+      "section_index": 0,
+      "title_th": "ภาวะช็อก",
+      "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/shock/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:40.771261+00:00",
+      "text": "Shock - not to be confused with emotional shock – is a life-threatening condition. It happens when the body isn’t getting enough oxygen to the brain and vital organs. Find out what to look for and how to perform first aid. Emergency advice What is shock? Shock can be caused by anything that reduces the flow of blood, such as: severe internal or external bleeding heart problems, such as a heart attack or heart failure loss of body fluids from dehydration, diarrhoea, vomiting, or burns severe allergic reactions and overwhelming infection (septic shock) spinal cord injury. Signs and symptoms Look for: pale skin, which may be cold and clammy a fast pulse as shock gets worse fast, shallow breathing a weak pulse grey-blue skin, especially inside the lips (with dark skin, look at the palms of the hands and the base of the feet) nausea and possible vomiting restlessness and aggressive behaviour as the brain's oxygen supply decreases yawning and gasping for air the casualty could become unresponsive. What to do First, treat any cause of shock that you can see or that you have identified from the primary survey , such as severe bleeding .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6202834867017566,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "fbe45b6a-aa57-49ca-a86a-9955084ad0a2",
+  "created_at": "2026-10-12T07:39:07.313892+00:00"
+}

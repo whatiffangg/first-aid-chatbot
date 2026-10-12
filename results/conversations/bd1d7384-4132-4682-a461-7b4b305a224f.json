@@ -1,0 +1,123 @@
+{
+  "answer": "หากผู้ใหญ่ล้มศีรษะและปวดคอ แต่ยังรู้สึกตัว ควรเชื่อมข้อมูลจากภาวะบาดเจ็บศีรษะและกระดูกสันหลังดังนี้:\n\nไม่ควรย้ายผู้ป่วย ด้วยความเสี่ยงที่อาจทำให้เกิดความเสียหายเพิ่มเติมต่อกระดูกสันหลัง [S2][S4] ควรรักษาตำแหน่งเดิม ขณะที่เฝ้าระวังอาการ เช่น ความรู้สึกผิดปกติ อาการปวด หรือการสูญเสียการควบคุมปัสสาวะหรืออุจจาระ [S1] ตรวจสอบการหายใจอย่างสม่ำเสมอ และสังเกตระดับความตื่นตัว [S4]\n\nหากมีอาการผิดปกติ เช่น ปวดคอรุนแรง หรือรู้สึกว่ามีการสั่นหรือร้อน ควรแจ้งผู้ช่วยหรือโทร 1669 ทันที [S1][S4] เพื่อขอความช่วยเหลือทางการแพทย์ทันที\n\nควรยืนยันว่าหัวและคออยู่ในแนวตรง ไม่ควรหันหรือหมุน ขณะที่รักษาการหายใจด้วยการใช้เทคนิค \"การเปิดทางเดินหายใจด้วยการดึงหัว\" ถ้าจำเป็น [S3]\n\nอย่าพยายามเคลื่อนย้ายผู้ป่วย ยกเว้นในกรณีที่มีอันตรายทันที เช่น หายใจไม่ออก [S2][S4] ต้องเฝ้าดูอาการอย่างต่อเนื่องจนกว่าเจ้าหน้าที่จะมาถึง",
+  "usage": {
+    "completion_tokens": 438,
+    "prompt_tokens": 1410,
+    "total_tokens": 1848,
+    "prompt_tokens_details": {
+      "cached_tokens": 197
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่ล้มศีรษะกระแทกและปวดคอ ยังรู้สึกตัวอยู่ ต้องเชื่อมข้อมูลบาดเจ็บศีรษะกับกระดูกสันหลังเพื่อช่วยและเฝ้าระวังอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 7.816,
+  "contexts": [
+    {
+      "id": "954770c8-f37e-558f-ac9b-8cd674499bff",
+      "document_id": "spinal-injury",
+      "section_index": 1,
+      "title_th": "บาดเจ็บกระดูกสันหลัง",
+      "aliases": "กระดูกสันหลัง คอ อุบัติเหตุ เคลื่อนย้าย",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/spinal-injury/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:00.977391+00:00",
+      "text": "abnormal sensations, for example, burning or tingling. Loss of bladder and/or bowel control. Breathing difficulties. If you suspect someone has a spinal injury but cannot maintain an open airway, you need to place them in the spinal recovery position . What to do if they are responsive Reassure the casualty. Do not move them and do not tell them to move, unless they are in immediate danger. Call 999 or 112 for emergency help or ask someone else to call for you. Steady and support their head so that their head, neck, and spine are in a straight line. This is to try to prevent further damage. To do this, kneel or lie behind their head while resting your elbows or your knees on the ground to keep steady. Hold each side of their head, spreading your fingers so that you do not cover their ears, as they need to be able to hear you. Support their head in this neutral position. If there is someone who can help you, ask them to put rolled-up blankets, towels, or clothes on either side of the head while you maintain this neutral position. Continue to support their head and neck until emergency help arrives and can take over, no matter how long it takes for them to come.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6672117678887367,
+      "retrieval": "vector"
+    },
+    {
+      "id": "b8c506f0-3c6a-59b4-b54d-04a97700626e",
+      "document_id": "head-injury",
+      "section_index": 3,
+      "title_th": "บาดเจ็บศีรษะ",
+      "aliases": "หัวกระแทก บาดเจ็บศีรษะ ปวดหัว อุบัติเหตุ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/head-injury/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:59.708787+00:00",
+      "text": "keep checking their breathing and prepare to start CPR if necessary. Try not to move the casualty from the position you found them in as they may have a spinal injury . Only move them if they are in danger. Continue to monitor the casualty, watching for any changes in level of response.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6604297452738541,
+      "retrieval": "vector"
+    },
+    {
+      "id": "ba554dc1-9660-58ad-a48f-9ecb5bd3fe84",
+      "document_id": "spinal-injury",
+      "section_index": 2,
+      "title_th": "บาดเจ็บกระดูกสันหลัง",
+      "aliases": "กระดูกสันหลัง คอ อุบัติเหตุ เคลื่อนย้าย",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/spinal-injury/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:00.977391+00:00",
+      "text": "towels, or clothes on either side of the head while you maintain this neutral position. Continue to support their head and neck until emergency help arrives and can take over, no matter how long it takes for them to come. Keep monitoring their breathing and level of response while waiting for help to arrive. What to do if they are unresponsive Open their airway using the jaw thrust technique. To do this, put your fingertips at the angles of the jaw and gently lift the jaw to open the airway. Do not tilt their neck. Check the casualty’s breathing. Place your ear above their mouth, looking down their body. Look, listen, and feel for 10 seconds. If they’re breathing, continue to support their head and monitor their breathing and level of response. If they are unresponsive and not breathing, make sure you have called 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). Recovery position for spinal injury If you suspect someone has a spinal injury but cannot maintain an open airway, you need to place them in the recovery position. Learn what to do.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6240770291294866,
+      "retrieval": "vector"
+    },
+    {
+      "id": "cdce4715-1ed2-52a3-b698-1cd12e2103be",
+      "document_id": "head-injury",
+      "section_index": 2,
+      "title_th": "บาดเจ็บศีรษะ",
+      "aliases": "หัวกระแทก บาดเจ็บศีรษะ ปวดหัว อุบัติเหตุ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/head-injury/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:59.708787+00:00",
+      "text": "sport until they have been fully assessed by a healthcare professional. Advise the casualty to seek medical help if the head injury appears to get worse or if any of the following apply: they are over the age of 65 they had previous brain surgery they are taking anti-clotting medication they have been taking drugs or drinking alcohol there is no one responsible to look after them. Serious head injuries If someone has had a serious head injury, they may have: experienced a severe blow to the head increased drowsiness a persistent headache dizziness and confusion loss of balance or memory difficulty speaking or walking vomiting episodes double vision a seizure deteriorating level of response unresponsive blood or blood-stained watery fluid coming from the ear or nose unequal pupil size. If you think someone has a serious head injury, call 999 or 112 for emergency help and tell the emergency call handler that you suspect a serious head injury. While waiting for help to arrive, ensure their airway is open and clear, keep checking their breathing and prepare to start CPR if necessary. Try not to move the casualty from the position you found them in as they may have a spinal injury . Only move them if they are in danger.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.616964807298964,
+      "retrieval": "vector"
+    },
+    {
+      "id": "a67427fe-5f34-5478-94f3-54e9c9421f89",
+      "document_id": "fractures-and-broken-bones",
+      "section_index": 2,
+      "title_th": "กระดูกหัก",
+      "aliases": "กระดูกหัก แขนหัก ขาหัก ดาม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:46.413650+00:00",
+      "text": "with a bandage. Advise the casualty to keep still while you support the injured part to stop it from moving. Do this by holding the joint above and below the injured area. Place padding around the injury for extra support. Ask the patient if they have any changes in the sensation of the affected bone or site: feels normal pins and needles feels hot or cold can't feel anything or numb If you have not called 999 or 112 for emergency help, do this now. Do not move the casualty until the injured part is secured, unless they are in immediate danger. You can secure an upper limb fracture with a sling and a lower limb fracture with broad fold bandages. If necessary, treat for shock , but do not raise the legs if either are suspected to be broken or there is injury to the pelvis or a hip. Monitor until help arrives.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5938978325505564,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "bd1d7384-4132-4682-a461-7b4b305a224f",
+  "created_at": "2026-10-12T07:39:41.946373+00:00"
+}

@@ -1,0 +1,126 @@
+{
+  "answer": "1. ให้ผู้ป่วยนั่งลงและเอียงหัวให้หน้าลงมา ไม่เอียงหัวกลับ  \n2. ปิดส่วนนิ้วของจมูกที่ส่วนอ่อนของจมูก และหายใจผ่านปาก  \n3. หลัง 10 นาที ปล่อยแรงกด แล้วกดอีกครั้งหากยังไม่หยุด  \n4. เมื่อหยุดเลือด ให้ยังคงเอียงหัวและล้างรอบจมูกด้วยน้ำอุ่น  \n5. ให้พัก หลีกเลี่ยงการหายใจหรือดูดจมูกเพื่อไม่ให้เลือดไหลกลับ",
+  "model": "firstaid-qwen",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1960,
+    "completion_tokens": 180
+  },
+  "id": "c7f74448-6dff-4f78-9b42-3aeda341e8d8",
+  "question": "เลือดกำเดาไหลควรทำอย่างไร?",
+  "mode": "graph",
+  "k": 5,
+  "contexts": [
+    {
+      "id": "4d38830d-2eee-5a4c-ae81-1bfa165dfd3f",
+      "document_id": "nosebleed",
+      "section_index": 1,
+      "title_th": "เลือดกำเดา",
+      "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:44.442320+00:00",
+      "text": "of 10 minutes. Once the bleeding has stopped, ask them to keep leaning forwards while you clean around their nose with lukewarm water. Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots. If the bleeding is severe, or if it lasts more than 30 minutes, call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.21552333228804946,
+      "retrieval": "vector"
+    },
+    {
+      "id": "76ad0cf4-572d-52a5-bc40-88ea41ce710e",
+      "document_id": "nosebleed",
+      "section_index": 0,
+      "title_th": "เลือดกำเดา",
+      "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:44.442320+00:00",
+      "text": "A nosebleed is when blood flows from the nose. Find out the causes and how to perform first aid. Emergency advice What is a nosebleed and what causes them? A nosebleed is when blood flows from the nose. It’s normally caused when tiny blood vessels inside the nostrils are ruptured. Common causes of nosebleeds include being hit on the nose, sneezing, picking or blowing the nose, high blood pressure, and anti-clotting medication. What to do If someone is having a nosebleed, ask them to sit down and lean with their head tilted forward. Do not tell them to lean their head back as this could cause the blood to trickle down the back of their throat and block the airway. Ask them to breathe through their mouth and pinch the soft part of their nose. Give them a clean tissue to catch any blood. After 10 minutes, they can release the pressure on their nose. Ask them to pinch their nose again if the bleeding has not stopped. They should do this for two further periods of 10 minutes. Once the bleeding has stopped, ask them to keep leaning forwards while you clean around their nose with lukewarm water. Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.18479488658542237,
+      "retrieval": "vector"
+    },
+    {
+      "id": "746020a3-00c3-5b64-8a38-b420de6e1916",
+      "document_id": "drowning",
+      "section_index": 1,
+      "title_th": "จมน้ำ",
+      "aliases": "จมน้ำ ไม่หายใจ น้ำ กู้ชีพ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:56.938988+00:00",
+      "text": "available. If you are on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Do not leave the casualty to look for a defibrillator yourself, the ambulance will bring one. Check the airway is open before giving five initial rescue breaths . This is done by placing one hand on the forehead and two fingers (of your other hand) underneath the tip of the chin. Using the hand on the forehead, pinch the casualty's nose with your finger and thumb, allowing the casualty's mouth to fall open. Take a breath and place your lips around the casualty's mouth, forming a seal. Blow into the casualty's mouth until the chest rises. Follow by beginning chest compressions. Kneel by the casualty and put the heel of your hand in the middle of their chest. Put your other hand on top of the first. Interlock your fingers, making sure they don't touch the ribs. Keep your arms straight and lean over the casualty. Press down hard, to a third of the depth of the chest , then allow the chest to come back up. After 30 chest compressions, give two rescue breaths. Repeat this at a rate of 100-120 compressions per minute.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.16129270355582265,
+      "retrieval": "vector"
+    },
+    {
+      "id": "e56188a0-8620-5f38-aa0a-467b6c0bd628",
+      "document_id": "severe-bleeding",
+      "section_index": 0,
+      "title_th": "เลือดออกรุนแรง",
+      "aliases": "ห้ามเลือด เลือดออก แผลฉีกขาด กดแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.980378+00:00",
+      "text": "When bleeding is severe, it can be dramatic and distressing. Acting quickly is vital. Find out what to do. Emergency advice What is severe bleeding? When bleeding is severe, it can be dramatic and distressing. If severe bleeding isn’t controlled quickly, it is possible for someone to lose a lot of blood, become unresponsive, and possibly develop shock . Shock is a life-threatening emergency, caused when the body doesn't have sufficient blood circulating to supply the vital organs with oxygen. Your priority is to stop the bleeding. What to do With open wounds there’s a risk of infection, so wear protective first aid gloves (if available) to help prevent any infection passing between you both. Apply direct firm pressure to the wound using a sterile dressing if possible or a clean non-fluffy cloth to stop the bleeding. If you don't have a dressing, you can ask the casualty to do this themselves. If the wound is covered by the casualty's clothing, remove or cut the clothes to uncover the wound. If there’s an object in the wound, don’t pull it out. It may be acting as a plug to reduce the bleeding Instead, apply pressure on either side of the object to push the edges together.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.15400212396142265,
+      "retrieval": "vector"
+    },
+    {
+      "id": "7e08ab77-b866-5111-bf62-0a364037c41d",
+      "document_id": "shock",
+      "section_index": 0,
+      "title_th": "ภาวะช็อก",
+      "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/shock/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:40.771261+00:00",
+      "text": "Shock - not to be confused with emotional shock – is a life-threatening condition. It happens when the body isn’t getting enough oxygen to the brain and vital organs. Find out what to look for and how to perform first aid. Emergency advice What is shock? Shock can be caused by anything that reduces the flow of blood, such as: severe internal or external bleeding heart problems, such as a heart attack or heart failure loss of body fluids from dehydration, diarrhoea, vomiting, or burns severe allergic reactions and overwhelming infection (septic shock) spinal cord injury. Signs and symptoms Look for: pale skin, which may be cold and clammy a fast pulse as shock gets worse fast, shallow breathing a weak pulse grey-blue skin, especially inside the lips (with dark skin, look at the palms of the hands and the base of the feet) nausea and possible vomiting restlessness and aggressive behaviour as the brain's oxygen supply decreases yawning and gasping for air the casualty could become unresponsive. What to do First, treat any cause of shock that you can see or that you have identified from the primary survey , such as severe bleeding .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.15265216758504685,
+      "retrieval": "vector"
+    },
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.1415948185321502,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "from": "topic:drowning",
+      "to": "topic:cpr",
+      "relation": "RELATED_GUIDANCE"
+    },
+    {
+      "from": "topic:drowning",
+      "to": "topic:primary-survey",
+      "relation": "RELATED_GUIDANCE"
+    },
+    {
+      "from": "topic:shock",
+      "to": "topic:primary-survey",
+      "relation": "RELATED_GUIDANCE"
+    }
+  ],
+  "elapsed_seconds": 4.66,
+  "invalid_citations": [],
+  "created_at": "2026-10-12T09:38:03.850268+00:00",
+  "embedding_model": "hashed-character-TFIDF-2048"
+}

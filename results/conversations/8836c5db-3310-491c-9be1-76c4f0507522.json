@@ -1,0 +1,177 @@
+{
+  "answer": "สำหรับผู้ใหญ่ที่มีแผลถลอกที่เข่า ควรทำความสะอาดดังนี้:  \n1. ล้างแผลด้วยน้ำไหลหรือผ้าสะอาดที่ไม่ขีดข่วน อย่าขีดขีดหรือสั่นแผล  \n2. ล้างบริเวณรอบแผลด้วยน้ำและสบู่ ใช้ผ้าสะอาดที่ไม่ขีดขีด ล้างจากด้านที่ไม่ใช่แผล  \n3. ทิ้งผ้าที่ใช้แล้ว แล้วใช้ผ้าสะอาดหรือผ้ากันน้ำที่ไม่ขีดขีด ปิดแผลด้วยผ้ากันน้ำหรือผ้ากันน้ำที่สะอาด  \n4. ถ้าแผลเลือดออกนานหรือมีวัตถุแปลกปลอม ควรเรียก 1669 ทันที  \n\n[ส่งต่อจาก S1]",
+  "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 1741,
+    "total_tokens": 1984,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 5.965,
+  "contexts": [
+    {
+      "id": "53e001f4-2760-56ea-9e09-da3f6c57f5d4",
+      "document_id": "cuts-and-grazes",
+      "section_index": 0,
+      "title_th": "แผลถลอกและแผลเล็ก",
+      "aliases": "แผลถลอก แผลเล็ก แผลบาด ทำแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cuts-and-grazes/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.063067+00:00",
+      "text": "Cuts and grazes are common injuries that can usually be treated at home. Emergency advice What is a cut? A cut is when the skin is fully broken. What is a graze? A graze is when only the top layers of skin are scraped off. What to do Clean the wound by rinsing it under running water or using sterile wipes. Do not rub . Pat the wound dry using a gauze swab and cover it with sterile gauze. If you don’t have these, use a clean, non-fluffy cloth, like a tea towel. For a cut, raise and support the injured part above the level of the heart. Avoid touching the wound. Clean around the wound with soap and water. Make sure you are wiping away from the wound, using a clean swab for each stroke. Pat dry. Remove the cloth or gauze covering the wound and apply a sterile dressing or a large plaster. Seek medical help if: a wound won’t stop bleeding a foreign object is embedded in the wound – like a splinter of wood or glass the wound is from a human or animal bite you think the wound might be infected you are unsure whether the casualty has been immunised against tetanus.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5787445996911293,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4d38830d-2eee-5a4c-ae81-1bfa165dfd3f",
+      "document_id": "nosebleed",
+      "section_index": 1,
+      "title_th": "เลือดกำเดา",
+      "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:44.442320+00:00",
+      "text": "of 10 minutes. Once the bleeding has stopped, ask them to keep leaning forwards while you clean around their nose with lukewarm water. Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots. If the bleeding is severe, or if it lasts more than 30 minutes, call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5199115398381664,
+      "retrieval": "vector"
+    },
+    {
+      "id": "96a9ca88-b068-578e-9552-1c91d79ba26b",
+      "document_id": "burns-and-scalds",
+      "section_index": 1,
+      "title_th": "แผลไหม้น้ำร้อนลวก",
+      "aliases": "น้ำร้อนลวก แผลไหม้ ไฟไหม้ ผิวหนัง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:41.985981+00:00",
+      "text": "unless stuck to the burn, before the area begins to swell. When the burn has cooled, cover the area loosely with cling film, lengthways. Do not wrap the cling film around the burn as the area needs space to swell. If the burn is on a foot or hand, you could use a clean plastic bag. Do not use ice, creams or gels. They may cause damage and increase the risk of infection. Do not break any blisters that may appear as this may cause infection. Monitor the casualty. Seek medical advice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.4549675222559475,
+      "retrieval": "vector"
+    },
+    {
+      "id": "32fbb4b6-b9eb-511f-a8f2-8ce7ed3e583e",
+      "document_id": "severe-bleeding",
+      "section_index": 1,
+      "title_th": "เลือดออกรุนแรง",
+      "aliases": "ห้ามเลือด เลือดออก แผลฉีกขาด กดแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.980378+00:00",
+      "text": "to uncover the wound. If there’s an object in the wound, don’t pull it out. It may be acting as a plug to reduce the bleeding Instead, apply pressure on either side of the object to push the edges together. Ask a helper to call 999 or 112 for emergency help. Give the emergency call handler details of where the wound is and the extent of the bleeding. If you are on your own, use the hands-free speaker on a phone so that you can treat the casualty while speaking to the emergency call handler. Firmly secure the dressing with a bandage to maintain pressure on the wound. Make it firm enough to maintain pressure but not so tight that it restricts their circulation. Check their circulation beyond the bandage. Press one of the nails or the skin beyond the bandage for five seconds until it turns pale, then release the pressure. If the colour does not return within two seconds, the bandage is too tight. If necessary, loosen and reapply the bandage.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.45372708348160706,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.45297935495309044,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bbf63af9-9b8c-5227-97ce-db74fc9ae7ff",
+      "document_id": "shock",
+      "section_index": 1,
+      "title_th": "ภาวะช็อก",
+      "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/shock/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:40.771261+00:00",
+      "text": "supply decreases yawning and gasping for air the casualty could become unresponsive. What to do First, treat any cause of shock that you can see or that you have identified from the primary survey , such as severe bleeding . Then help the casualty to lie down. Raise their legs, supporting them on a chair. This will help to improve the blood supply to their vital organs. If available, lay them down on a rug or blanket to protect them from the cold. Call 999 or 112 for emergency help and tell ambulance control you think they are in shock. If possible, explain what you think caused it. Loosen any tight clothing around the neck, chest, and waist to make sure it doesn’t constrict their blood flow. While waiting for help to arrive, cover them with a coat or blanket to help keep them warm. Remember, fear and pain can make shock worse by increasing the body’s demand for oxygen, so try to reassure the casualty and keep them calm if you can. Monitor their level of response. If they become unresponsive at any point, prepare to treat them as an unresponsive casualty.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.36484729762960755,
+      "retrieval": "graph"
+    },
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.3554012880609952,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "shock",
+      "steps": [
+        {
+          "from": "topic:severe-bleeding",
+          "to": "topic:shock",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+            "https://www.sja.org.uk/first-aid-advice/shock/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "cpr",
+      "steps": [
+        {
+          "from": "topic:choking",
+          "to": "topic:cpr",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/choking/",
+            "https://www.sja.org.uk/first-aid-advice/cpr/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "8836c5db-3310-491c-9be1-76c4f0507522",
+  "created_at": "2026-10-12T07:53:45.544401+00:00"
+}

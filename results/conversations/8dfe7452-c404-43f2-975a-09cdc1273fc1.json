@@ -1,0 +1,122 @@
+{
+  "answer": "การกู้ชีพกรณีจมน้ำต่างจาก CPR ทั่วไปที่ต้องประเมินความรู้สึกและหายใจก่อน แต่ในกรณีจมน้ำ ถ้าผู้ใหญ่ไม่ตอบสนองและไม่หายใจปกติ ควรเริ่ม **CPR ทันที** โดยไม่ต้องรอการประเมินอย่างละเอียด เพราะมีความเสี่ยงต่อการเสียชีวิตเร็ว [S4]  \n\nจุดเริ่มต้นคือการ **ตรวจสอบการหายใจและตอบสนอง** โดยใช้การสั่นไหลและถามอย่างชัดเจน หากไม่ตอบสนองและไม่หายใจปกติ ให้เริ่ม **CPR ทันที** พร้อมเรียกช่วย 999 หรือ 112 [S4]  \n\nการใช้ AED ควรทำ **ทันทีที่มีผู้ช่วย** หรือเมื่อผู้ช่วยนำ AED มา ควรให้ผู้ช่วยเปิด AED และตามคำแนะนำของเครื่อง [S1][S3]  \n\nหากไม่มีผู้ช่วย ให้เรียก 999 พร้อมทำ CPR ขณะพูดผ่านหูฟังของโทรศัพท์ [S4]  \n\nหลังจากเริ่ม CPR ควรทำอย่างต่อเนื่อง ทุก 30 ครั้งกดที่หน้าอก ให้หายใจ 2 ครั้ง ที่อัตรา 100-120 ครั้งต่อนาที [S1][S3]  \n\nหากผู้ป่วยมีการหายใจไม่ปกติหรือมีอาการสั่น ควรระวังว่าอาจมีสารที่ขึ้นในทางเดินหายใจ จึงควรหมุนผู้ป่วยไปด้านข้างเพื่อทำความสะอาดทางเดินหายใจ [S1]  \n\nในกรณีฉุกเฉิน ควรเรียก 1669 ทันทีในประเทศไทย [S1]",
+  "usage": {
+    "completion_tokens": 507,
+    "prompt_tokens": 1675,
+    "total_tokens": 2182,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "นำผู้ใหญ่ขึ้นจากน้ำแล้วไม่ตอบสนองและไม่หายใจปกติ การกู้ชีพกรณีจมน้ำมีจุดเริ่มต่างจาก CPR ทั่วไปอย่างไร และจะใช้ AED เมื่อไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 8.831,
+  "contexts": [
+    {
+      "id": "12bacbf9-315f-578b-8f7d-d166b1aa303f",
+      "document_id": "drowning",
+      "section_index": 2,
+      "title_th": "จมน้ำ",
+      "aliases": "จมน้ำ ไม่หายใจ น้ำ กู้ชีพ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:56.938988+00:00",
+      "text": "casualty. Press down hard, to a third of the depth of the chest , then allow the chest to come back up. After 30 chest compressions, give two rescue breaths. Repeat this at a rate of 100-120 compressions per minute. The beat of the song ‘Stayin Alive’ can help you keep the right rate. Continue to perform CPR until: emergency help arrives and takes over the person starts showing signs of life and starts to breathe normally you are too exhausted to continue. If there is a helper, you can change over every one to two minutes, with minimal interruptions to chest compressions or a defibrillator is ready to be used. If the helper returns with a defibrillator, ask them to switch it on and follow the voice prompts while you continue with CPR. Beware, many casualties that drown may bring up stomach contents, so be prepared to roll them onto their side to clear their airway. If the casualty shows signs of becoming responsive such as coughing, opening eyes, speaking, and starts to breathe normally, put them in the recovery position . You may also need to treat them for hypothermia by covering them with warm clothes and blankets. If possible, replace the wet clothes with dry clothes.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6778493854919099,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6762040972943656,
+      "retrieval": "vector"
+    },
+    {
+      "id": "746020a3-00c3-5b64-8a38-b420de6e1916",
+      "document_id": "drowning",
+      "section_index": 1,
+      "title_th": "จมน้ำ",
+      "aliases": "จมน้ำ ไม่หายใจ น้ำ กู้ชีพ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:56.938988+00:00",
+      "text": "available. If you are on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Do not leave the casualty to look for a defibrillator yourself, the ambulance will bring one. Check the airway is open before giving five initial rescue breaths . This is done by placing one hand on the forehead and two fingers (of your other hand) underneath the tip of the chin. Using the hand on the forehead, pinch the casualty's nose with your finger and thumb, allowing the casualty's mouth to fall open. Take a breath and place your lips around the casualty's mouth, forming a seal. Blow into the casualty's mouth until the chest rises. Follow by beginning chest compressions. Kneel by the casualty and put the heel of your hand in the middle of their chest. Put your other hand on top of the first. Interlock your fingers, making sure they don't touch the ribs. Keep your arms straight and lean over the casualty. Press down hard, to a third of the depth of the chest , then allow the chest to come back up. After 30 chest compressions, give two rescue breaths. Repeat this at a rate of 100-120 compressions per minute.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6753634058574209,
+      "retrieval": "vector"
+    },
+    {
+      "id": "89f9dff4-02be-5e25-b273-b6dc3fc67eb7",
+      "document_id": "cpr",
+      "section_index": 0,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "If someone is unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Learn what to do. Emergency advice What is CPR? CPR stands for cardiopulmonary resuscitation. It combines chest compressions and rescue breaths to give a person the best chance of survival following a cardiac arrest. If an adult is unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. What to do If you find someone collapsed, make sure it's safe to approach. Check if they respond by gently shaking their shoulders and asking them loudly, 'are you ok?'. If they don't respond, shout for help and open their airway by gently tilting the casualty's head back and lifting their chin. Look, listen, and feel for up to 10 seconds for normal breathing. Ignore occasional, irregular gasps - these are common in the early stages of cardiac arrest. If they are not breathing normally, ask a helper to call 999 or 112 for an ambulance while you start CPR. Ask a helper to find and bring a defibrillator, if available. Ask your helper to put the phone on speaker and hold it out towards you.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6751412245706979,
+      "retrieval": "vector"
+    },
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6454991952483823,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    3,
+    4
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "8dfe7452-c404-43f2-975a-09cdc1273fc1",
+  "created_at": "2026-10-12T07:39:23.599916+00:00"
+}

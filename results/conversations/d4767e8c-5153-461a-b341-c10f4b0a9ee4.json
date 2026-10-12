@@ -1,0 +1,122 @@
+{
+  "answer": "หากผู้ใหญ่สำลักแต่ยังไอและพูดได้ ให้ส่งเสริมการไอเอง โดยให้เขาไออย่างต่อเนื่อง หรือช่วยดูว่ามีสิ่งอุดตันอยู่ในปากหรือไม่ ถ้ามี ให้ดึงออกทันที [S2] หากไม่สามารถไอออกได้ ให้ทำการช่วยด้วยการให้ **5 ครั้ง** ด้วยการตีที่ด้านหลังระหว่างกระดูกไหล่ (back blows) แล้วตรวจสอบปากทุกครั้ง [S1][S2]\n\nหากผู้ใหญ่สำลักจนไม่สามารถพูดหรือหายใจได้ แสดงว่ามีการอุดตันที่รุนแรง ต้องดำเนินการทันที โดยให้ **5 ครั้ง** ตีที่ด้านหลัง แล้วตรวจสอบปาก ถ้าไม่ดี ให้ทำ **5 ครั้ง** การดันท้อง (abdominal thrusts) ด้วยมือที่อยู่รอบท้อง ด้านล่างท้อง ดึงขึ้นอย่างแรง [S1] หากยังไม่ดี ให้เรียก **1669** ทันที และเตรียมให้ทำ CPR ถ้าไม่ตอบสนอง [S1][S3]\n\nทั้งสองกรณี ต้องตรวจสอบปากทุกครั้งหลังการช่วยเหลือ และหากไม่ดีต้องเรียกช่วยเหลือทันที [S1]",
+  "usage": {
+    "completion_tokens": 393,
+    "prompt_tokens": 1321,
+    "total_tokens": 1714,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่สำลักแต่ยังไอได้ กับสำลักจนพูดและหายใจไม่ได้ ต้องช่วยต่างกันอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 6.638,
+  "contexts": [
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.7381906120938009,
+      "retrieval": "vector"
+    },
+    {
+      "id": "095db470-ca1e-577a-a8a2-cf9b94d9bbe6",
+      "document_id": "choking",
+      "section_index": 0,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "When someone is choking, they may be unable to breathe properly. Find out what to look for and how to perform first aid. Emergency advice What is choking? When someone is choking, their airway is partly or completely blocked, meaning they may be unable to breathe properly. They might be able to clear it by coughing, but if they can't, you will need to help them straight away. Signs and symptoms Look for: difficulty breathing, speaking, or coughing a red, puffy face signs of distress, they may point to their throat or grasp their neck What to do If you think someone is choking, ask them, ‘are you choking?' If they can breathe, speak, or cough, then they might be able to clear their own throat. If they cannot breathe, cough, or make any noise, then they need your help straight away. Cough it out. Encourage them to cough and remove any obvious obstruction from their mouth. Hit it out. If coughing fails to work, you need to give five sharp back blows. To do this, help them to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6374545426607434,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6053367028791099,
+      "retrieval": "vector"
+    },
+    {
+      "id": "11b158b5-a023-5e90-84ed-a0009feb33e4",
+      "document_id": "poisoning",
+      "section_index": 1,
+      "title_th": "ได้รับสารพิษ",
+      "aliases": "สารพิษ กินน้ำยาล้างห้องน้ำ ยาพิษ อาเจียน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/poisoning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:01.758013+00:00",
+      "text": "pains reduced level of response. What to do If the person is responsive, ask them what they have swallowed, when, and how much. There might be some clues around them, like empty packaging and containers, or poisonous plants and berries. Call 999 or 112 for emergency help and give them as much information as possible. If you can, keep any packaging or labels to show the emergency services. Keep checking their breathing and response. Do not try to make them vomit. If they do vomit, then put some of this into a bag or container and give it to the healthcare professionals along with any other clues. This may help them identify the poison. Do not give the casualty anything to eat or drink. If they become unresponsive, open their airway, check their breathing, and prepare to give CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5998877885779514,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bb068464-a0d0-537b-8db8-a799343cc840",
+      "document_id": "anaphylaxis",
+      "section_index": 2,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up. Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5867621954332204,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2,
+    3
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "d4767e8c-5153-461a-b341-c10f4b0a9ee4",
+  "created_at": "2026-10-12T07:38:22.733530+00:00"
+}

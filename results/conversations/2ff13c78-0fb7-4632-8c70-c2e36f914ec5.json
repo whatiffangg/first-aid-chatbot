@@ -1,0 +1,180 @@
+{
+  "answer": "สำหรับผู้ใหญ่ที่ลวกแขนเล็กน้อยด้วยน้ำร้อน ควรใช้น้ำไหลเย็นลดความร้อนอย่างน้อย **20 นาที** หรือจนกว่าความเจ็บจะดีขึ้น [S2]  \n\n**ไม่ควรใช้น้ำแข็งหรือครีม** เพราะอาจทำให้เกิดความเสียหายเพิ่มเติมหรือเพิ่มความเสี่ยงต่อการติดเชื้อ [S1]  \n\nหลังจากลดความร้อนแล้ว ควรห่อผิวที่ได้รับการรักษาด้วย **ผ้าคลิป (cling film)** อย่างเบา ๆ ตั้งแต่ด้านยาว ไม่ควรห่อแน่น เพราะผิวต้องมีพื้นที่ขยายตัว [S2]  \n\nควรสังเกตอาการ เช่น อาการบวม หรือการเกิดผิวหนังแตก แล้วปรึกษาแพทย์หากมีความกังวลเพิ่มเติม  \n\nหากมีอาการรุนแรงหรือไม่ดีขึ้น ควรโทร 1669 ทันที [S1]",
+  "usage": {
+    "completion_tokens": 295,
+    "prompt_tokens": 1481,
+    "total_tokens": 1776,
+    "prompt_tokens_details": {
+      "cached_tokens": 1055
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่น้ำร้อนลวกแขนเล็กน้อย ควรใช้น้ำไหลลดความร้อนนานเท่าไร และใช้น้ำแข็งหรือครีมได้ไหม?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 6.722,
+  "contexts": [
+    {
+      "id": "96a9ca88-b068-578e-9552-1c91d79ba26b",
+      "document_id": "burns-and-scalds",
+      "section_index": 1,
+      "title_th": "แผลไหม้น้ำร้อนลวก",
+      "aliases": "น้ำร้อนลวก แผลไหม้ ไฟไหม้ ผิวหนัง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:41.985981+00:00",
+      "text": "unless stuck to the burn, before the area begins to swell. When the burn has cooled, cover the area loosely with cling film, lengthways. Do not wrap the cling film around the burn as the area needs space to swell. If the burn is on a foot or hand, you could use a clean plastic bag. Do not use ice, creams or gels. They may cause damage and increase the risk of infection. Do not break any blisters that may appear as this may cause infection. Monitor the casualty. Seek medical advice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6308007710380524,
+      "retrieval": "vector"
+    },
+    {
+      "id": "64bd72a5-5501-534d-a00c-b670b30e1220",
+      "document_id": "burns-and-scalds",
+      "section_index": 0,
+      "title_th": "แผลไหม้น้ำร้อนลวก",
+      "aliases": "น้ำร้อนลวก แผลไหม้ ไฟไหม้ ผิวหนัง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:41.985981+00:00",
+      "text": "If someone receives a burn or scald, your priority is to cool the burn as quickly as possible. Find out what to look for and how to perform first aid. Emergency advice What are burns and scalds? A burn can be caused by dry heat such as contact with fire, or a hot iron, or exposure to the sun. A scald can be caused by contact with wet heat, like steam or a hot cup of tea. The longer the burning goes on the more severe the injury. Your priority is to cool the burn as quickly as possible. Signs and symptoms Look for: red skin and swelling pain in the area of the burn blistering may start to appear crying in children and babies What to do Start cooling the burn or scald as quickly as possible. Hold it under cool running water for at least 20 minutes or until the pain feels better. If there is no water available, you could use cold milk or canned drinks. Remove any jewellery or clothing, unless stuck to the burn, before the area begins to swell. When the burn has cooled, cover the area loosely with cling film, lengthways. Do not wrap the cling film around the burn as the area needs space to swell.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6061691755274989,
+      "retrieval": "vector"
+    },
+    {
+      "id": "25b385dd-28a2-548b-bd40-52de39ec9740",
+      "document_id": "heatstroke",
+      "section_index": 1,
+      "title_th": "ลมแดด",
+      "aliases": "ลมแดด ฮีทสโตรก ตัวร้อน สับสน อากาศร้อน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.275567+00:00",
+      "text": "them down with cold water to keep them cool. If available, use cold packs placed in the armpits and around the neck. Once their temperature seems to have gone back to normal, replace the wet sheet with a dry sheet. While waiting for help to arrive, keep checking their temperature, as well as their breathing, pulse, and level of response. Be prepared to put them in the recovery position if they become unresponsive. If they start getting hot again, repeat the cooling process to lower their temperature. Occasionally, someone with heatstroke may experience seizures . Be prepared to recognise and treat these as appropriate.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5823609040907122,
+      "retrieval": "vector"
+    },
+    {
+      "id": "a725788b-f6a7-5b8e-b4de-34062e237d46",
+      "document_id": "insect-bites-and-stings",
+      "section_index": 1,
+      "title_th": "แมลงต่อย",
+      "aliases": "ผึ้งต่อย แมลงต่อย เหล็กใน แพ้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:52.489793+00:00",
+      "text": "and hold something cold against the injury to help reduce the swelling. Use an ice pack (or a frozen bag of vegetables wrapped in a tea towel or thin towel to avoid direct contact of the ice with the skin). Keep the cold compress on for 15-20 minutes. You can repeat this each hour, but do not leave the ice on for longer than 20 minutes at a time. If the sting is in the mouth or throat, the casualty can suck an ice cube or sip cold water to try to prevent any swelling. Monitor their breathing and level of response. Call 999 or 112 for emergency help if the casualty shows signs of a severe allergic reaction (anaphylaxis).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5594342498656886,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4d38830d-2eee-5a4c-ae81-1bfa165dfd3f",
+      "document_id": "nosebleed",
+      "section_index": 1,
+      "title_th": "เลือดกำเดา",
+      "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:44.442320+00:00",
+      "text": "of 10 minutes. Once the bleeding has stopped, ask them to keep leaning forwards while you clean around their nose with lukewarm water. Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots. If the bleeding is severe, or if it lasts more than 30 minutes, call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5221390806710273,
+      "retrieval": "vector"
+    },
+    {
+      "id": "95a14b1c-7a34-5eca-a314-176be5cb61c9",
+      "document_id": "primary-survey",
+      "section_index": 1,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help. Airway. Next, you need to check that the airway is open and clear. Open the airway by placing one hand on the forehead to tilt the head back and use two fingers from the other hand to lift the chin. Breathing. You now need to check if the casualty is breathing normally. Keep the airway held open, place your ear above their mouth and look down at their chest. Listen for sounds of breathing and see if you can feel their breath on your cheek. Watch to see if their chest moves. Do this for no more than 10 seconds. Please note: During the first minutes of cardiac arrest, about half of casualties will do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.38832853787823324,
+      "retrieval": "graph"
+    },
+    {
+      "id": "bb068464-a0d0-537b-8db8-a799343cc840",
+      "document_id": "anaphylaxis",
+      "section_index": 2,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up. Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.3462088189667476,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "primary-survey",
+      "steps": [
+        {
+          "from": "topic:heatstroke",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+            "https://www.sja.org.uk/first-aid-advice/primary-survey/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "anaphylaxis",
+      "steps": [
+        {
+          "from": "topic:insect-bites-and-stings",
+          "to": "topic:anaphylaxis",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+            "https://www.sja.org.uk/first-aid-advice/anaphylaxis/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    1,
+    2
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "2ff13c78-0fb7-4632-8c70-c2e36f914ec5",
+  "created_at": "2026-10-12T07:40:36.935678+00:00"
+}

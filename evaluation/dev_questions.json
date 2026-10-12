@@ -1,0 +1,6 @@
+[
+ {"question":"ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?","required_documents":["cuts-and-grazes"]},
+ {"question":"สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?","required_documents":["fractures-and-broken-bones"]},
+ {"question":"ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?","required_documents":["sprains-and-strains"]},
+ {"question":"ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?","required_documents":["fainting","primary-survey"]}
+]

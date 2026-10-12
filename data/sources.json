@@ -1,0 +1,358 @@
+[
+  {
+    "id": "primary-survey",
+    "title_th": "การประเมินเบื้องต้น",
+    "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "cpr",
+    "title_th": "CPR ผู้ใหญ่",
+    "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+    "age_group": "adult",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "how-to-use-a-defibrillator",
+    "title_th": "เครื่อง AED",
+    "aliases": "เออีดี เครื่องกระตุกหัวใจ ไฟฟ้า กู้ชีพ",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/how-to-use-a-defibrillator/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "recovery-position",
+    "title_th": "ท่าพักฟื้น",
+    "aliases": "หมดสติ ไม่รู้สึกตัว หายใจปกติ ท่าพักฟื้น ตะแคง",
+    "age_group": "adult",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "cuts-and-grazes",
+    "title_th": "แผลถลอกและแผลเล็ก",
+    "aliases": "แผลถลอก แผลเล็ก แผลบาด ทำแผล",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/cuts-and-grazes/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "severe-bleeding",
+    "title_th": "เลือดออกรุนแรง",
+    "aliases": "ห้ามเลือด เลือดออก แผลฉีกขาด กดแผล",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "shock",
+    "title_th": "ภาวะช็อก",
+    "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/shock/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "burns-and-scalds",
+    "title_th": "แผลไหม้น้ำร้อนลวก",
+    "aliases": "น้ำร้อนลวก แผลไหม้ ไฟไหม้ ผิวหนัง",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "chemical-burn",
+    "title_th": "แผลไหม้สารเคมี",
+    "aliases": "สารเคมี กรด ด่าง ผิวหนัง แผลไหม้",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/chemical-burn/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "nosebleed",
+    "title_th": "เลือดกำเดา",
+    "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "fainting",
+    "title_th": "เป็นลม",
+    "aliases": "เป็นลม วูบ หน้ามืด",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/fainting/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "fractures-and-broken-bones",
+    "title_th": "กระดูกหัก",
+    "aliases": "กระดูกหัก แขนหัก ขาหัก ดาม",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "sprains-and-strains",
+    "title_th": "ข้อแพลง",
+    "aliases": "ข้อแพลง ข้อเท้าแพลง เคล็ด บวม",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/sprains-and-strains/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "choking",
+    "title_th": "ผู้ใหญ่สำลัก",
+    "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+    "age_group": "adult",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/choking/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "baby-choking",
+    "title_th": "ทารกสำลัก",
+    "aliases": "ทารก เด็กเล็ก ต่ำกว่า 1 ปี สำลัก",
+    "age_group": "infant",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/baby-choking/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "child-choking",
+    "title_th": "เด็กสำลัก",
+    "aliases": "เด็ก สำลัก อุดกั้นทางเดินหายใจ",
+    "age_group": "child",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/child-choking/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "anaphylaxis",
+    "title_th": "แพ้รุนแรง",
+    "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "insect-bites-and-stings",
+    "title_th": "แมลงต่อย",
+    "aliases": "ผึ้งต่อย แมลงต่อย เหล็กใน แพ้",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "seizure",
+    "title_th": "ชัก",
+    "aliases": "ชัก ลมชัก เกร็ง หมดสติ",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "heatstroke",
+    "title_th": "ลมแดด",
+    "aliases": "ลมแดด ฮีทสโตรก ตัวร้อน สับสน อากาศร้อน",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "heat-exhaustion",
+    "title_th": "เพลียแดด",
+    "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "stroke",
+    "title_th": "โรคหลอดเลือดสมอง",
+    "aliases": "สโตรก หน้าเบี้ยว แขนอ่อนแรง พูดไม่ชัด FAST",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/stroke/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "drowning",
+    "title_th": "จมน้ำ",
+    "aliases": "จมน้ำ ไม่หายใจ น้ำ กู้ชีพ",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "electrocution",
+    "title_th": "ไฟฟ้าช็อต",
+    "aliases": "ไฟฟ้าช็อต ไฟดูด กระแสไฟฟ้า",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/electrocution/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "head-injury",
+    "title_th": "บาดเจ็บศีรษะ",
+    "aliases": "หัวกระแทก บาดเจ็บศีรษะ ปวดหัว อุบัติเหตุ",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/head-injury/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "spinal-injury",
+    "title_th": "บาดเจ็บกระดูกสันหลัง",
+    "aliases": "กระดูกสันหลัง คอ อุบัติเหตุ เคลื่อนย้าย",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/spinal-injury/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "poisoning",
+    "title_th": "ได้รับสารพิษ",
+    "aliases": "สารพิษ กินน้ำยาล้างห้องน้ำ ยาพิษ อาเจียน",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/poisoning/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "asthma-attack",
+    "title_th": "หอบหืด",
+    "aliases": "หอบหืด หายใจลำบาก ยาพ่น",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/asthma-attack/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "heart-attack",
+    "title_th": "หัวใจวาย",
+    "aliases": "หัวใจวาย เจ็บหน้าอก เหงื่อ หัวใจ",
+    "age_group": "adult",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/heart-attack/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "tick-bite",
+    "title_th": "เห็บกัดระหว่างเดินป่า",
+    "aliases": "เห็บกัด เห็บติดผิวหนัง ถอนเห็บ เดินป่า แคมป์ปิ้ง",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/tick-bite/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "dehydration",
+    "title_th": "ภาวะขาดน้ำ",
+    "aliases": "ขาดน้ำ กระหายน้ำ ปากแห้ง ปัสสาวะน้อย เดินป่า ท่องเที่ยว",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/dehydration/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "sunburn",
+    "title_th": "ผิวไหม้แดด",
+    "aliases": "ผิวไหม้แดด แดดเผา ผิวแดง เที่ยวทะเล",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/sunburn/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "hypothermia",
+    "title_th": "อุณหภูมิร่างกายต่ำ",
+    "aliases": "ตัวเย็น หนาวสั่น อุณหภูมิต่ำ เสื้อเปียก เดินป่า ตั้งแคมป์",
+    "age_group": "all",
+    "publisher": "St John Ambulance",
+    "language": "en",
+    "url": "https://www.sja.org.uk/first-aid-advice/hypothermia/",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "jellyfish-stings-thailand",
+    "title_th": "แมงกะพรุนพิษในทะเลไทย",
+    "aliases": "แมงกะพรุน แมงกระพรุน แมงกะพรุนกล่อง หนวด น้ำส้มสายชู เที่ยวทะเล",
+    "age_group": "all",
+    "publisher": "กรมควบคุมโรค",
+    "language": "th",
+    "url": "https://ddc.moph.go.th/doe/news.php?deptcode=doe&news=21057&news_views=302",
+    "extraction_kind": "ddc-jellyfish-guidance",
+    "geographic_scope": "Thailand; suspected venomous jellyfish, especially box jellyfish",
+    "source_published": "2021-10-11",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  },
+  {
+    "id": "snake-bites",
+    "title_th": "งูกัด",
+    "aliases": "งูกัด งูพิษ เดินป่า ขันชะเนาะ ดูดพิษ กรีดแผล",
+    "age_group": "all",
+    "publisher": "โรงพยาบาลจุฬาลงกรณ์ สภากาชาดไทย",
+    "language": "th",
+    "url": "https://kcmh.chulalongkornhospital.go.th/line/งูกัด/",
+    "extraction_kind": "chula-snake-guidance",
+    "geographic_scope": "Thailand",
+    "source_published": "2018-02-21",
+    "review_status": "official_source_not_clinically_validated_in_this_project"
+  }
+]

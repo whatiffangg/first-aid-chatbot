@@ -1,0 +1,121 @@
+{
+  "answer": "หากผู้ใหญ่กลืนสารพิษแล้วหมดสติและไม่หายใจปกติ ควรเรียกสายด่วน 1669 ทันที [S1] อย่าพยายามทำให้อาเจียน เพราะอาจทำให้สารพิษเข้าสู่ระบบทางเดินหายใจมากขึ้นและเพิ่มความเสี่ยงต่อการเสียชีวิต [S1] ถ้าผู้ป่วยไม่หายใจหรือไม่ตอบสนอง ต้องเริ่มทำ CPR ทันที ตามขั้นตอนการประเมินเบื้องต้น [S3] อย่าให้กินหรือดื่มอะไรใดๆ ทั้งสิ้น [S1] ถ้ามีบรรจุภัณฑ์หรือป้ายกำกับ ให้เก็บไว้เพื่อส่งให้เจ้าหน้าที่แพทย์เพื่อช่วยระบุสารพิษ [S1] อย่าใช้ยาหรือวิธีใดๆ ที่ไม่ได้รับคำแนะนำจากแพทย์ ควรให้ความช่วยเหลือตามขั้นตอนที่ปลอดภัยและมีหลักฐาน [S1] ถ้ามีอาการหายใจไม่ปกติหรือมีอาการคล้ายการหมดสติ ควรเรียก 1669 ทันที และเริ่มการช่วยชีวิตทันที [S3]",
+  "usage": {
+    "completion_tokens": 360,
+    "prompt_tokens": 1417,
+    "total_tokens": 1777,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่กลืนสารพิษแล้วหมดสติไม่หายใจปกติ ต้องเชื่อมข้อห้ามเรื่องอาเจียนกับการกู้ชีพอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 6.251,
+  "contexts": [
+    {
+      "id": "11b158b5-a023-5e90-84ed-a0009feb33e4",
+      "document_id": "poisoning",
+      "section_index": 1,
+      "title_th": "ได้รับสารพิษ",
+      "aliases": "สารพิษ กินน้ำยาล้างห้องน้ำ ยาพิษ อาเจียน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/poisoning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:01.758013+00:00",
+      "text": "pains reduced level of response. What to do If the person is responsive, ask them what they have swallowed, when, and how much. There might be some clues around them, like empty packaging and containers, or poisonous plants and berries. Call 999 or 112 for emergency help and give them as much information as possible. If you can, keep any packaging or labels to show the emergency services. Keep checking their breathing and response. Do not try to make them vomit. If they do vomit, then put some of this into a bag or container and give it to the healthcare professionals along with any other clues. This may help them identify the poison. Do not give the casualty anything to eat or drink. If they become unresponsive, open their airway, check their breathing, and prepare to give CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6715674922950969,
+      "retrieval": "vector"
+    },
+    {
+      "id": "095db470-ca1e-577a-a8a2-cf9b94d9bbe6",
+      "document_id": "choking",
+      "section_index": 0,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "When someone is choking, they may be unable to breathe properly. Find out what to look for and how to perform first aid. Emergency advice What is choking? When someone is choking, their airway is partly or completely blocked, meaning they may be unable to breathe properly. They might be able to clear it by coughing, but if they can't, you will need to help them straight away. Signs and symptoms Look for: difficulty breathing, speaking, or coughing a red, puffy face signs of distress, they may point to their throat or grasp their neck What to do If you think someone is choking, ask them, ‘are you choking?' If they can breathe, speak, or cough, then they might be able to clear their own throat. If they cannot breathe, cough, or make any noise, then they need your help straight away. Cough it out. Encourage them to cough and remove any obvious obstruction from their mouth. Hit it out. If coughing fails to work, you need to give five sharp back blows. To do this, help them to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6135330037070542,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6116211076839897,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bb068464-a0d0-537b-8db8-a799343cc840",
+      "document_id": "anaphylaxis",
+      "section_index": 2,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up. Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5941485198044383,
+      "retrieval": "vector"
+    },
+    {
+      "id": "225b0aa9-b561-58fd-9d01-6767cbef7f0b",
+      "document_id": "asthma-attack",
+      "section_index": 0,
+      "title_th": "หอบหืด",
+      "aliases": "หอบหืด หายใจลำบาก ยาพ่น",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/asthma-attack/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:02.999232+00:00",
+      "text": "During an asthma attack, breathing becomes more difficult. Find out what to look for and how to perform first aid. Emergency advice What is an asthma attack? During an asthma attack, the muscles of the air passages in the lungs go into spasm. As a result, the airways become narrowed, which makes breathing more difficult. Sometimes there is a recognised trigger for an attack, such as a cold, drugs, cigarette smoke, or allergies. At other times, there is no obvious trigger. Signs and symptoms Look for: difficulty breathing wheezing and coughing a tight chest, it may feel like a band is tightening around it distress and anxiety difficulty speaking, they may speak in short sentences and whisper signs of hypoxia such as a grey-blue tinge to the lips, earlobes, and nailbeds exhaustion, in the case of a severe attack. What to do Reassure the casualty and ask them to take their usual dose of their reliever inhaler (usually blue). Ask them to breathe slowly and deeply. If they have a spacer available, ask them to use it with their inhaler. The inhaler is more effective with a spacer, especially when being used for young children. If they have no inhaler, call 999 or 112 for emergency help. Sit them down in a comfortable position.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5766206260989795,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    3
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "9f9180db-fb45-41f3-8e9c-332002dddd8f",
+  "created_at": "2026-10-12T07:40:03.304474+00:00"
+}

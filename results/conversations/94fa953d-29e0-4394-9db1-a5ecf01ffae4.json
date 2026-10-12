@@ -1,0 +1,121 @@
+{
+  "answer": "ระหว่างที่ผู้ใหญ่กำลังชัก ห้ามทำสิ่งต่อไปนี้:  \n- ห้ามจับหรือยึดตัวผู้ป่วย เพราะอาจทำให้เกิดการบาดเจ็บเพิ่มเติม [S2]  \n- ห้ามใส่สิ่งใดสิ่งหนึ่งลงในปาก เพราะอาจทำให้เกิดอันตรายหรือเสี่ยงต่อการบาดเจ็บ [S2]  \n- ห้ามย้ายผู้ป่วยโดยไม่จำเป็น เพราะอาจทำให้เกิดความเสียหายเพิ่มเติม [S2]  \n\nเพื่อป้องกันการบาดเจ็บควร:  \n- ย้ายวัตถุอันตรายออกจากบริเวณ เช่น ของที่คมหรือร้อน [S2]  \n- ป้องกันหัวด้วยผ้าหรือหมอนที่นุ่ม เช่น ผ้าห่มหรือผ้าห่มที่พับเป็นแผ่น [S2]  \n- คลายเสื้อผ้าที่กีดกันรอบคอเพื่อให้การหายใจสะดวก [S2]  \n- จดเวลาที่ชักเริ่มต้น เพื่อใช้ในการแจ้งความช่วยเหลือ [S2]  \n- ถ้าจำเป็น อาจใช้กล้องถ่ายวิดีโอเพื่อช่วยในการวินิจฉัย [S2]  \n\nหากผู้ป่วยไม่ตอบสนองหลังชัก ควรเริ่มทำ CPR ทันที [S1]",
+  "usage": {
+    "completion_tokens": 392,
+    "prompt_tokens": 1342,
+    "total_tokens": 1734,
+    "prompt_tokens_details": {
+      "cached_tokens": 197
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ระหว่างที่ผู้ใหญ่กำลังชัก มีสิ่งใดที่ห้ามทำ และควรป้องกันการบาดเจ็บอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 6.705,
+  "contexts": [
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5764045846257186,
+      "retrieval": "vector"
+    },
+    {
+      "id": "7628c4f0-6a11-52f0-8cdd-cb1d1aa67c3e",
+      "document_id": "seizure",
+      "section_index": 1,
+      "title_th": "ชัก",
+      "aliases": "ชัก ลมชัก เกร็ง หมดสติ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:53.298441+00:00",
+      "text": "arching back noisy, difficult breathing grey-blue tinge on the lips jerky, uncontrolled movements or twitching saliva at the mouth, possibly blood stained if they have accidentally bitten their tongue or lip loss of bladder or bowel control What to do With any seizure, it is important to first protect the casualty from harming themselves during the fit. Ask any bystanders to step back, help to protect the casualty's privacy as much as possible, and clear away any potentially dangerous objects, like hot drinks or sharp objects. Make a note of the time that the seizure started. Do not restrain the casualty or move them unless they are in immediate danger. Do not put anything in their mouth. Protect their head by placing soft padding underneath it, like a rolled-up towel or pillows. You should also loosen any clothing around their neck. You can surround small children with padding for safety. Try to cool them by taking off bedding and strip them of a single layer of clothing, but make sure they don't get cold. You might need to wait for the seizure to stop to do this. It can be helpful to capture a video of the seizure on your mobile phone if you can. This can aid diagnosis.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5418739895694975,
+      "retrieval": "vector"
+    },
+    {
+      "id": "095db470-ca1e-577a-a8a2-cf9b94d9bbe6",
+      "document_id": "choking",
+      "section_index": 0,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "When someone is choking, they may be unable to breathe properly. Find out what to look for and how to perform first aid. Emergency advice What is choking? When someone is choking, their airway is partly or completely blocked, meaning they may be unable to breathe properly. They might be able to clear it by coughing, but if they can't, you will need to help them straight away. Signs and symptoms Look for: difficulty breathing, speaking, or coughing a red, puffy face signs of distress, they may point to their throat or grasp their neck What to do If you think someone is choking, ask them, ‘are you choking?' If they can breathe, speak, or cough, then they might be able to clear their own throat. If they cannot breathe, cough, or make any noise, then they need your help straight away. Cough it out. Encourage them to cough and remove any obvious obstruction from their mouth. Hit it out. If coughing fails to work, you need to give five sharp back blows. To do this, help them to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5108991042570019,
+      "retrieval": "vector"
+    },
+    {
+      "id": "a67427fe-5f34-5478-94f3-54e9c9421f89",
+      "document_id": "fractures-and-broken-bones",
+      "section_index": 2,
+      "title_th": "กระดูกหัก",
+      "aliases": "กระดูกหัก แขนหัก ขาหัก ดาม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:46.413650+00:00",
+      "text": "with a bandage. Advise the casualty to keep still while you support the injured part to stop it from moving. Do this by holding the joint above and below the injured area. Place padding around the injury for extra support. Ask the patient if they have any changes in the sensation of the affected bone or site: feels normal pins and needles feels hot or cold can't feel anything or numb If you have not called 999 or 112 for emergency help, do this now. Do not move the casualty until the injured part is secured, unless they are in immediate danger. You can secure an upper limb fracture with a sling and a lower limb fracture with broad fold bandages. If necessary, treat for shock , but do not raise the legs if either are suspected to be broken or there is injury to the pelvis or a hip. Monitor until help arrives.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.4891605098357842,
+      "retrieval": "vector"
+    },
+    {
+      "id": "3cbd82a6-8746-52b2-a7c3-04a269effeb2",
+      "document_id": "electrocution",
+      "section_index": 1,
+      "title_th": "ไฟฟ้าช็อต",
+      "aliases": "ไฟฟ้าช็อต ไฟดูด กระแสไฟฟ้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/electrocution/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:58.250850+00:00",
+      "text": "away from the source. If it’s not possible to break contact using a wooden object, loop some rope around the underneath of the casualty’s arms or ankles and pull them away from the electrical source. Do not touch the casualty. Once you’re sure the contact has been broken between the casualty and the electrical source, perform a primary survey and treat any injuries. Call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.48486923277559113,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "94fa953d-29e0-4394-9db1-a5ecf01ffae4",
+  "created_at": "2026-10-12T07:37:56.036577+00:00"
+}

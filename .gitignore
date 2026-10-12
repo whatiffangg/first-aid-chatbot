@@ -1,0 +1,12 @@
+.venv/
+runtime/
+models/
+data/raw/
+data/qdrant/
+__pycache__/
+.pytest_cache/
+*.log
+.env
+.env.*
+.firstaid_ollama/
+.pytest_tmp*/

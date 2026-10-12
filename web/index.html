@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FirstAid · Qwen RAG</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body><aside><div class="brand"><span class="brand-mark">✚</span><div>FirstAid<span class="sub">ผู้ช่วยเรียนรู้การปฐมพยาบาล</span></div></div>
+<nav><button class="active" data-tab="chat">สนทนา</button><button data-tab="graph">กราฟความรู้</button><button data-tab="eval">ผลการทดสอบ</button></nav>
+<div class="aside-bottom"><span class="dot"></span> Qwen · ทำงานในเครื่อง<p id="index-info">กำลังตรวจฐานข้อมูล…</p></div></aside>
+<main><header><div><span class="eyebrow">FIRST AID KNOWLEDGE ASSISTANT</span><h1>เรียนรู้วิธีช่วยเหลืออย่างมีหลักฐาน</h1><p class="author">Created by: skibi rizz sigma 67 scuba ohio tung tung</p></div><a class="emergency" href="tel:1669">เหตุฉุกเฉิน โทร 1669</a></header>
+<section id="chat" class="tab"><div class="notice">ต้นแบบเพื่อการเรียนรู้ · ผลทดสอบพบข้อผิดพลาดในคำตอบ ห้ามใช้เป็นแนวทางรักษาจริง · เหตุฉุกเฉิน โทร 1669 และทำตามเจ้าหน้าที่</div>
+<div class="controls"><label>การค้นข้อมูล <select id="mode"><option value="graph">Vector + Knowledge Graph</option><option value="vector">Vector RAG</option></select></label><label>จำนวนหลักฐาน k <select id="k"><option>3</option><option selected>5</option><option>8</option></select></label><button id="clear" class="secondary">เริ่มบทสนทนาใหม่</button></div>
+<div id="messages"><div class="welcome"><span class="pill">แหล่งข้อมูลทางการ · อ้างอิงตรวจสอบได้</span><h2>อยากเรียนรู้เรื่องอะไร?</h2><p>ถามเกี่ยวกับการปฐมพยาบาลพื้นฐาน หรือสถานการณ์เฉพาะ<br>คำตอบจะแสดงหลักฐานและเส้นทางเชื่อมโยงข้อมูล</p><div class="examples"><button>เลือดกำเดาไหลควรทำอย่างไร?</button><button>ระหว่างผู้ป่วยชัก มีสิ่งใดที่ห้ามทำ?</button><button>ทารก 8 เดือนสำลักควรช่วยอย่างไร?</button><button>โดนแมงกะพรุนที่ทะเลไทยควรทำอย่างไร?</button><button>เดินป่าแล้วถูกงูกัดควรช่วยอย่างไร?</button><button>เห็บติดผิวหนังต้องเอาออกอย่างไร?</button></div></div></div>
+<form id="ask"><textarea id="question" placeholder="พิมพ์คำถาม พร้อมอายุและอาการที่ทราบ…" required maxlength="3000" rows="2"></textarea><button id="send" type="submit">ส่งคำถาม ↗</button></form><p class="fine">คำตอบสร้างโดย Qwen อาจผิดพลาดได้ · ตรวจสอบแหล่งอ้างอิงก่อนนำไปใช้</p></section>
+<section id="graph" class="tab" hidden><h2>หัวข้อที่เชื่อมโยงกัน</h2><p class="muted">เส้นแสดงหัวข้อที่ควรค้นหลักฐานร่วมกัน ไม่ใช่คำวินิจฉัย</p><div id="graph-view"></div></section>
+<section id="eval" class="tab" hidden><h2>ผลทดสอบที่บันทึกจริง</h2><div id="eval-view"></div><h3>เปิดบทสนทนาที่ทดสอบ</h3><div id="run-list"></div></section>
+</main><script src="/static/app.js"></script></body></html>

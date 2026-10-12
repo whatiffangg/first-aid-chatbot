@@ -1,0 +1,121 @@
+{
+  "answer": "หากผู้ใหญ่อยู่กลางแดดแล้วตัวร้อนและสับสน ควรทำดังนี้:\n\n1. ย้ายผู้ป่วยไปที่ที่มีความเย็นและร่มเงาทันที  \n2. ถอดเสื้อผ้าที่สวมอยู่ให้หมด เพื่อให้ร่างกายระบายความร้อนได้ดีขึ้น  \n3. ใช้ผ้าชุ่มด้วยน้ำเย็นหรือพันผ้าเย็นไว้ที่แขนและคอ เพื่อช่วยลดอุณหภูมิร่างกาย  \n4. ถ้ามีผ้าชุ่ม ใช้ผ้าชุ่มที่ผู้ป่วย แล้วเปลี่ยนเป็นผ้าแห้งเมื่ออุณหภูมิกลับสู่ปกติ  \n5. ตรวจสอบการหายใจ ชีพจร และระดับการตอบสนองอย่างสม่ำเสมอ  \n6. หากผู้ป่วยสับสน หรือมีอาการผิดปกติ ควรเรียกความช่วยเหลือทันทีโดยโทร 1669  \n\nอาการที่ต้องระวัง เช่น อุณหภูมิร่างกายสูงกว่า 40°C (104°F) หรือมีอาการสับสน อาจเป็นอาการของ **heatstroke** ซึ่งเป็นภาวะรุนแรงและต้องรับการรักษาทันที [S2]  \n\nอย่าให้ผู้ป่วยดื่มน้ำมากเกินไป หรือใช้ยาใดๆ ที่ไม่ได้รับคำแนะนำ [S3]",
+  "usage": {
+    "completion_tokens": 401,
+    "prompt_tokens": 1479,
+    "total_tokens": 1880,
+    "prompt_tokens_details": {
+      "cached_tokens": 197
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่อยู่กลางแดดแล้วตัวร้อน สับสน สงสัยลมแดด ควรลดความร้อนและขอความช่วยเหลืออย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 6.964,
+  "contexts": [
+    {
+      "id": "25b385dd-28a2-548b-bd40-52de39ec9740",
+      "document_id": "heatstroke",
+      "section_index": 1,
+      "title_th": "ลมแดด",
+      "aliases": "ลมแดด ฮีทสโตรก ตัวร้อน สับสน อากาศร้อน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.275567+00:00",
+      "text": "them down with cold water to keep them cool. If available, use cold packs placed in the armpits and around the neck. Once their temperature seems to have gone back to normal, replace the wet sheet with a dry sheet. While waiting for help to arrive, keep checking their temperature, as well as their breathing, pulse, and level of response. Be prepared to put them in the recovery position if they become unresponsive. If they start getting hot again, repeat the cooling process to lower their temperature. Occasionally, someone with heatstroke may experience seizures . Be prepared to recognise and treat these as appropriate.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6690015558952798,
+      "retrieval": "vector"
+    },
+    {
+      "id": "86965b79-ee86-539f-ae88-c81170c0426e",
+      "document_id": "heatstroke",
+      "section_index": 0,
+      "title_th": "ลมแดด",
+      "aliases": "ลมแดด ฮีทสโตรก ตัวร้อน สับสน อากาศร้อน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heatstroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.275567+00:00",
+      "text": "Heatstroke is more serious than heat exhaustion and can be life-threatening. Emergency advice What is heatstroke? Heatstroke is caused by a failure of the 'thermostat' in the brain which regulates the body’s temperature. This means the body is unable to cool down when it becomes too hot. It can be caused by spending too much time in the sun, having a high fever, or from taking recreational drugs such as ecstasy. It can also occur after heat exhaustion when sweating ceases. Your priority is to cool the casualty down as quickly as possible and get them to hospital. Signs and symptoms Look for: headache, dizziness, and discomfort restlessness, confusion, or unusual behaviour hot flushed and dry skin fast deterioration in the level of response a full bounding pulse body temperature above 40°C (104°F). What to do Move them to a cool, shaded place and remove their outer clothing if possible. Call 999 or 112 for emergency help. Sit them down and wrap them in a cool, wet sheet. If there isn’t a sheet available, fan them or sponge them down with cold water to keep them cool. If available, use cold packs placed in the armpits and around the neck. Once their temperature seems to have gone back to normal, replace the wet sheet with a dry sheet.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6149119324725218,
+      "retrieval": "vector"
+    },
+    {
+      "id": "cd238076-c1ed-5b14-b541-23fa8f3c45f5",
+      "document_id": "heat-exhaustion",
+      "section_index": 1,
+      "title_th": "เพลียแดด",
+      "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.901831+00:00",
+      "text": "direct sun during the hottest part of the day, from 11am to 3pm. Heat exhaustion isn't always caused by weather and can be a consequence of the body producing more heat than it can lose during vigorous or endurance exercise. Some prescribed medications can make people more susceptible to heat illness. For example, Selective Serotonin Reuptake Inhibitors (SSRIs) like Sertraline and Tricyclic Antidepressants like Amitriptyline. Recreational drugs such as ecstasy can also affect a person's ability to regulate their temperature. It is important to spot and treat heat exhaustion, as it can lead to heatstroke . Signs and symptoms Look for: dizziness and confusion loss of appetite and feeling sick sweating with pale, clammy skin cramps in the arms, legs, and stomach fast, weakening pulse and rapid breathing What to do Help them to lie down in a cool, shaded place and raise their legs. Give them lots of water to drink. They can also have isotonic sports drinks. Check their breathing, pulse, and responsiveness. Suggest they get medical advice. Call 999 or 112 if you are concerned.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5985726617982645,
+      "retrieval": "vector"
+    },
+    {
+      "id": "32249a79-be54-5d3d-9a3c-54f0444e7d23",
+      "document_id": "heat-exhaustion",
+      "section_index": 0,
+      "title_th": "เพลียแดด",
+      "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:54.901831+00:00",
+      "text": "Heat exhaustion usually happens to people who aren't used to hot, humid weather. Find out what to look for and how to perform first aid. Emergency advice What is heat exhaustion? Long periods in the sun can lead to heat exhaustion. Heat exhaustion is caused by a loss of salt and water from the body, usually through excessive sweating. It develops slowly and usually happens to people who aren’t used to hot, humid weather. If you’re at a festival, a sports match, or an outdoor event, and it’s very hot, it’s easy to suffer from heat exhaustion. Prevention is best, so always try to stay well hydrated by drinking plenty of water (but not too much, drink to thirst), wear light and loose-fitting clothing, a wide-brimmed sun hat, and sun cream. Try to keep out of the direct sun during the hottest part of the day, from 11am to 3pm. Heat exhaustion isn't always caused by weather and can be a consequence of the body producing more heat than it can lose during vigorous or endurance exercise.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5851038474541224,
+      "retrieval": "vector"
+    },
+    {
+      "id": "64bd72a5-5501-534d-a00c-b670b30e1220",
+      "document_id": "burns-and-scalds",
+      "section_index": 0,
+      "title_th": "แผลไหม้น้ำร้อนลวก",
+      "aliases": "น้ำร้อนลวก แผลไหม้ ไฟไหม้ ผิวหนัง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:41.985981+00:00",
+      "text": "If someone receives a burn or scald, your priority is to cool the burn as quickly as possible. Find out what to look for and how to perform first aid. Emergency advice What are burns and scalds? A burn can be caused by dry heat such as contact with fire, or a hot iron, or exposure to the sun. A scald can be caused by contact with wet heat, like steam or a hot cup of tea. The longer the burning goes on the more severe the injury. Your priority is to cool the burn as quickly as possible. Signs and symptoms Look for: red skin and swelling pain in the area of the burn blistering may start to appear crying in children and babies What to do Start cooling the burn or scald as quickly as possible. Hold it under cool running water for at least 20 minutes or until the pain feels better. If there is no water available, you could use cold milk or canned drinks. Remove any jewellery or clothing, unless stuck to the burn, before the area begins to swell. When the burn has cooled, cover the area loosely with cling film, lengthways. Do not wrap the cling film around the burn as the area needs space to swell.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.531254410169434,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    2,
+    3
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "a3823c47-b6d2-46b0-a5f9-57c5b03caf18",
+  "created_at": "2026-10-12T07:38:49.604642+00:00"
+}

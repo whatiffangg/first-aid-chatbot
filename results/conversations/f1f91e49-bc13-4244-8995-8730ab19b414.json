@@ -1,0 +1,122 @@
+{
+  "answer": "เมื่อผู้ใหญ่ถูกผึ้งต่อยที่ลิ้นและหายใจลำบาก ต่างจากแมลงต่อยธรรมดาเพราะอาจเกิดการบวมของทางเดินหายใจ ซึ่งเป็นภาวะเรื้อรังรุนแรง ต้องตระหนักถึงความเสี่ยงของภาวะแพ้รุนแรง (anaphylaxis) [S2]  \n\nควรดำเนินการดังนี้:  \n- ให้ผู้ถูกต่อยนอนราบ ยกขา เพื่อช่วยให้การหายใจดีขึ้น [S5]  \n- ตรวจสอบการหายใจและระดับการตอบสนองอย่างต่อเนื่อง [S1]  \n- แจ้งหน่วยกู้ภัยทันทีที่มีอาการหายใจลำบาก หรือมีอาการแพ้รุนแรง เช่น บวม ผื่น หรือหายใจไม่ออก [S1][S5]  \n- แจ้งว่าสงสัยว่าเป็นภาวะแพ้รุนแรง และขอให้แพทย์เตรียมการรักษาด้วยอัลเดอสเตอร์ดีน (adrenaline) ตามคำแนะนำ [S5]  \n\nต้องเชื่อมหัวข้อ **\"แพ้รุนแรง\"** เพราะเป็นภาวะที่เกิดขึ้นได้จากแมลงต่อยที่มีอาการรุนแรง เช่น การบวมที่ลิ้นและหายใจลำบาก [S2][S5]  \n\nหากไม่ได้รับการช่วยเหลือทันที ควรเรียก 1669 ทันที [S1]",
+  "usage": {
+    "completion_tokens": 404,
+    "prompt_tokens": 1229,
+    "total_tokens": 1633,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่ถูกผึ้งต่อยแล้วลิ้นบวมและหายใจลำบาก คำแนะนำต่างจากแมลงต่อยธรรมดาอย่างไร และต้องเชื่อมหัวข้อใด?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 7.421,
+  "contexts": [
+    {
+      "id": "a725788b-f6a7-5b8e-b4de-34062e237d46",
+      "document_id": "insect-bites-and-stings",
+      "section_index": 1,
+      "title_th": "แมลงต่อย",
+      "aliases": "ผึ้งต่อย แมลงต่อย เหล็กใน แพ้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:52.489793+00:00",
+      "text": "and hold something cold against the injury to help reduce the swelling. Use an ice pack (or a frozen bag of vegetables wrapped in a tea towel or thin towel to avoid direct contact of the ice with the skin). Keep the cold compress on for 15-20 minutes. You can repeat this each hour, but do not leave the ice on for longer than 20 minutes at a time. If the sting is in the mouth or throat, the casualty can suck an ice cube or sip cold water to try to prevent any swelling. Monitor their breathing and level of response. Call 999 or 112 for emergency help if the casualty shows signs of a severe allergic reaction (anaphylaxis).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6741551808848052,
+      "retrieval": "vector"
+    },
+    {
+      "id": "dfa06dc2-a812-5a0d-a8f7-294a4a4f26b9",
+      "document_id": "insect-bites-and-stings",
+      "section_index": 0,
+      "title_th": "แมลงต่อย",
+      "aliases": "ผึ้งต่อย แมลงต่อย เหล็กใน แพ้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:52.489793+00:00",
+      "text": "Insect stings can be painful but are not usually dangerous. However, stings to the mouth or throat can be more serious. You should also watch for signs of an allergic reaction. Emergency advice What are insect stings? Insect stings can be painful but are not usually dangerous. However, if the insect sting is in the mouth or throat this can be more serious as it could lead to swelling of the airway and obstruction. Watch for signs of an allergic reaction, which can lead to anaphylactic shock. Signs and symptoms Look for: stinging pain redness that spreads irritation or itching hives (rash with red, raised, itchy bumps) What to do Reassure the casualty. If you can see the sting, brush or scrape it off sideways with something firm like a fingernail, credit card, or plastic ruler as soon as possible. Don’t try to use tweezers to pull it out because you could squeeze poison from the sting into the casualty. Raise the affected area and hold something cold against the injury to help reduce the swelling. Use an ice pack (or a frozen bag of vegetables wrapped in a tea towel or thin towel to avoid direct contact of the ice with the skin).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.644360492221195,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5645078797998487,
+      "retrieval": "vector"
+    },
+    {
+      "id": "11b158b5-a023-5e90-84ed-a0009feb33e4",
+      "document_id": "poisoning",
+      "section_index": 1,
+      "title_th": "ได้รับสารพิษ",
+      "aliases": "สารพิษ กินน้ำยาล้างห้องน้ำ ยาพิษ อาเจียน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/poisoning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:01.758013+00:00",
+      "text": "pains reduced level of response. What to do If the person is responsive, ask them what they have swallowed, when, and how much. There might be some clues around them, like empty packaging and containers, or poisonous plants and berries. Call 999 or 112 for emergency help and give them as much information as possible. If you can, keep any packaging or labels to show the emergency services. Keep checking their breathing and response. Do not try to make them vomit. If they do vomit, then put some of this into a bag or container and give it to the healthcare professionals along with any other clues. This may help them identify the poison. Do not give the casualty anything to eat or drink. If they become unresponsive, open their airway, check their breathing, and prepare to give CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5507266228422687,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bb068464-a0d0-537b-8db8-a799343cc840",
+      "document_id": "anaphylaxis",
+      "section_index": 2,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up. Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5408117999351549,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2,
+    5
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "f1f91e49-bc13-4244-8995-8730ab19b414",
+  "created_at": "2026-10-12T07:39:14.745030+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "status": "real_runs",
+  "groups": [
+    {
+      "mode": "graph",
+      "group": "direct",
+      "n": 10,
+      "graded_n": 10,
+      "mean_score": 11.2,
+      "evidence_recall": 1.0,
+      "mean_seconds": 8.1735,
+      "truncated_answers": 0,
+      "invalid_citation_answers": 0
+    },
+    {
+      "mode": "graph",
+      "group": "multihop",
+      "n": 10,
+      "graded_n": 10,
+      "mean_score": 8.8,
+      "evidence_recall": 0.8833333333333334,
+      "mean_seconds": 10.1145,
+      "truncated_answers": 0,
+      "invalid_citation_answers": 0
+    },
+    {
+      "mode": "vector",
+      "group": "direct",
+      "n": 10,
+      "graded_n": 10,
+      "mean_score": 11.8,
+      "evidence_recall": 1.0,
+      "mean_seconds": 6.698600000000001,
+      "truncated_answers": 0,
+      "invalid_citation_answers": 0
+    },
+    {
+      "mode": "vector",
+      "group": "multihop",
+      "n": 10,
+      "graded_n": 10,
+      "mean_score": 10.5,
+      "evidence_recall": 0.7666666666666666,
+      "mean_seconds": 8.2618,
+      "truncated_answers": 0,
+      "invalid_citation_answers": 0
+    }
+  ],
+  "averages": [
+    {
+      "mode": "graph",
+      "macro_mean_score": 10.0,
+      "macro_evidence_recall": 0.9416666666666667
+    },
+    {
+      "mode": "vector",
+      "macro_mean_score": 11.15,
+      "macro_evidence_recall": 0.8833333333333333
+    }
+  ],
+  "evaluator": "Codex LLM reviewer; see grades.json for explicit reasons. Not a clinical or human assessment.",
+  "metric_note": "Evidence recall is document-level gold-topic coverage in final retrieved contexts, not medical answer accuracy.",
+  "created_at": "2026-10-12T07:46:28.782212+00:00"
+}

@@ -1,0 +1,121 @@
+{
+  "answer": "ไม่ควรจับตัวผู้ใหญ่ทันทีหากยังสัมผัสแหล่งไฟ เพราะจะทำให้ตนเองถูกไฟฟ้าช็อตด้วย [S3]  \n\nควรทำอย่างไร:  \n1. ห่างตัวออกจากผู้ป่วยทันที  \n2. ใช้ของไม่นำไฟฟ้า เช่น ไม้หรือไม้กวาด ดึงแขนหรือขาของผู้ป่วยออกจากรายการไฟฟ้า  \n3. ถ้าไม่สามารถใช้ของไม้ได้ ให้ลูปผ้าหรือเชือกรอบแขนหรือขา แล้วดึงออกอย่างปลอดภัย  \n4. หลังจากห่างจากแหล่งไฟแล้ว ตรวจสอบสภาวะการหายใจและสติ ถ้าไม่หายใจหรือไม่มีสติ ให้เริ่มทำ CPR ทันที [S1][S3]  \n\nหากไม่แน่ใจหรือไม่มีความรู้ ควรเรียกสายด่วน 1669 ทันที [S1][S3]  \n\n**ห้ามจับตัวผู้ป่วยที่ยังสัมผัสไฟฟ้า** เพราะอันตรายต่อชีวิตของผู้ช่วยด้วย [S3]",
+  "usage": {
+    "completion_tokens": 313,
+    "prompt_tokens": 1398,
+    "total_tokens": 1711,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่ถูกไฟดูดจากเครื่องใช้ไฟฟ้าในบ้านและยังสัมผัสแหล่งไฟอยู่ ควรจับตัวเขาทันทีหรือไม่?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 5.698,
+  "contexts": [
+    {
+      "id": "3cbd82a6-8746-52b2-a7c3-04a269effeb2",
+      "document_id": "electrocution",
+      "section_index": 1,
+      "title_th": "ไฟฟ้าช็อต",
+      "aliases": "ไฟฟ้าช็อต ไฟดูด กระแสไฟฟ้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/electrocution/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:58.250850+00:00",
+      "text": "away from the source. If it’s not possible to break contact using a wooden object, loop some rope around the underneath of the casualty’s arms or ankles and pull them away from the electrical source. Do not touch the casualty. Once you’re sure the contact has been broken between the casualty and the electrical source, perform a primary survey and treat any injuries. Call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6587028163472651,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5654701009819945,
+      "retrieval": "vector"
+    },
+    {
+      "id": "88f71198-d97a-592e-a39e-988e41ae573c",
+      "document_id": "electrocution",
+      "section_index": 0,
+      "title_th": "ไฟฟ้าช็อต",
+      "aliases": "ไฟฟ้าช็อต ไฟดูด กระแสไฟฟ้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/electrocution/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:58.250850+00:00",
+      "text": "Electrical currents can cause serious injury. Find out what to look for and what to do if someone suffers electrocution from low voltage current. Emergency advice What causes electric shock? Currents used in the workplace and at home can cause serious injury. Incidents are generally due to faulty or loose switches, defective appliances, or frayed flexes. Electric shock can also be caused by handling an electric appliance with wet hands as water is a very effective conductor of electricity. Signs and symptoms Someone suffering from electric shock may have: a cardiac arrest. What to do Assess the situation. Do not touch the casualty if they’re still in contact with the electrical source as you are at risk of electrocution. Turn off the source of electricity to break the contact between the electrical supply and the casualty. Alternatively, move the casualty away from the source. You may be able to stand on some dry insulating material (such as a plastic mat or wooden box) and use a broom handle or wooden pole to push the casualty's limb away from the source. If it’s not possible to break contact using a wooden object, loop some rope around the underneath of the casualty’s arms or ankles and pull them away from the electrical source. Do not touch the casualty.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5625449421683473,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bd5131c2-7311-5793-990b-3c0a32234e41",
+      "document_id": "seizure",
+      "section_index": 2,
+      "title_th": "ชัก",
+      "aliases": "ชัก ลมชัก เกร็ง หมดสติ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:53.298441+00:00",
+      "text": "sure they don't get cold. You might need to wait for the seizure to stop to do this. It can be helpful to capture a video of the seizure on your mobile phone if you can. This can aid diagnosis. When any jerky movements have stopped, open their airway and check their breathing. If they are breathing, put them in the recovery position . Monitor their level of response and make a note of how long the seizure lasted. If they become unresponsive at any time, prepare to call 999 or 112 for emergency help and give CPR . Not everyone who has a seizure needs to go to hospital, particularly if they are known to have epilepsy. The casualty may have an alert bracelet or a care plan that says what to do. It may take 15-30 minutes for the casualty to recover completely from a seizure. Call 999 or 112 for emergency help if: it is the casualty’s first seizure they are having repeated seizures the cause of the seizure is unknown the seizure continues for more than five minutes the casualty is unresponsive for more than 10 minutes after the seizure they have an injury on another part of the body, or they are not breathing normally",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.558420258648485,
+      "retrieval": "vector"
+    },
+    {
+      "id": "19f8c01f-cb57-5d63-99b1-54b7c2e9c4df",
+      "document_id": "cpr",
+      "section_index": 1,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "a helper to call 999 or 112 for an ambulance while you start CPR. Ask a helper to find and bring a defibrillator, if available. Ask your helper to put the phone on speaker and hold it out towards you. If you are on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Do not leave the casualty to look for a defibrillator yourself. If there is someone else with you, send them to get one. The ambulance controller can tell them where the nearest defibrillator is. If you're on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Start chest compressions. Ideally, this should be on a firm surface. For example, if they are on a bed, and if it is safe for you to do so, move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5408767543717252,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    3
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "ccb88a88-2f3d-41f2-a106-103fc1685acc",
+  "created_at": "2026-10-12T07:38:36.062385+00:00"
+}

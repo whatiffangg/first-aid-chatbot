@@ -1,0 +1,209 @@
+{
+  "answer": "ระหว่างที่ผู้ใหญ่กำลังชัก ห้ามทำสิ่งต่อไปนี้:  \n- ห้ามจับหรือยึดตัวผู้ป่วย เพราะอาจทำให้เกิดการบาดเจ็บหรือเสียชีวิต [S2]  \n- ห้ามใส่สิ่งใดสิ่งหนึ่งลงในปากเพื่อป้องกันการกัด [S2]  \n\nเพื่อป้องกันการบาดเจ็บควร:  \n- ย้ายวัตถุอันตรายออกจากบริเวณ เช่น ของร้อนหรือคม [S2]  \n- ป้องกันหัวด้วยผ้าหรือหมอนที่มีความนุ่ม [S2]  \n- คลายเสื้อผ้าที่กีดกันรอบคอเพื่อให้การหายใจสะดวก [S2]  \n- รักษาความเย็นโดยการถอดเสื้อผ้าบางชิ้น แต่ไม่ให้เย็นเกินไป [S2]  \n\nควรบันทึกเวลาที่ชักเริ่มต้น เพื่อใช้ในการวินิจฉัย [S2]  \nหากผู้ป่วยไม่ตอบสนองหลังชัก ควรเตรียมการให้การช่วยชีวิต (CPR) ทันที [S1]  \n\n*หมายเหตุ: ถ้ามีอาการผิดปกติหรือไม่หาย ควรเรียกสายด่วน 1669 ทันที* [S1]",
+  "usage": {
+    "completion_tokens": 380,
+    "prompt_tokens": 2040,
+    "total_tokens": 2420,
+    "prompt_tokens_details": {
+      "cached_tokens": 1292
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ระหว่างที่ผู้ใหญ่กำลังชัก มีสิ่งใดที่ห้ามทำ และควรป้องกันการบาดเจ็บอย่างไร?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 8.558,
+  "contexts": [
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5764045846257186,
+      "retrieval": "vector"
+    },
+    {
+      "id": "7628c4f0-6a11-52f0-8cdd-cb1d1aa67c3e",
+      "document_id": "seizure",
+      "section_index": 1,
+      "title_th": "ชัก",
+      "aliases": "ชัก ลมชัก เกร็ง หมดสติ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:53.298441+00:00",
+      "text": "arching back noisy, difficult breathing grey-blue tinge on the lips jerky, uncontrolled movements or twitching saliva at the mouth, possibly blood stained if they have accidentally bitten their tongue or lip loss of bladder or bowel control What to do With any seizure, it is important to first protect the casualty from harming themselves during the fit. Ask any bystanders to step back, help to protect the casualty's privacy as much as possible, and clear away any potentially dangerous objects, like hot drinks or sharp objects. Make a note of the time that the seizure started. Do not restrain the casualty or move them unless they are in immediate danger. Do not put anything in their mouth. Protect their head by placing soft padding underneath it, like a rolled-up towel or pillows. You should also loosen any clothing around their neck. You can surround small children with padding for safety. Try to cool them by taking off bedding and strip them of a single layer of clothing, but make sure they don't get cold. You might need to wait for the seizure to stop to do this. It can be helpful to capture a video of the seizure on your mobile phone if you can. This can aid diagnosis.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5418739895694975,
+      "retrieval": "vector"
+    },
+    {
+      "id": "095db470-ca1e-577a-a8a2-cf9b94d9bbe6",
+      "document_id": "choking",
+      "section_index": 0,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "When someone is choking, they may be unable to breathe properly. Find out what to look for and how to perform first aid. Emergency advice What is choking? When someone is choking, their airway is partly or completely blocked, meaning they may be unable to breathe properly. They might be able to clear it by coughing, but if they can't, you will need to help them straight away. Signs and symptoms Look for: difficulty breathing, speaking, or coughing a red, puffy face signs of distress, they may point to their throat or grasp their neck What to do If you think someone is choking, ask them, ‘are you choking?' If they can breathe, speak, or cough, then they might be able to clear their own throat. If they cannot breathe, cough, or make any noise, then they need your help straight away. Cough it out. Encourage them to cough and remove any obvious obstruction from their mouth. Hit it out. If coughing fails to work, you need to give five sharp back blows. To do this, help them to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5108991042570019,
+      "retrieval": "vector"
+    },
+    {
+      "id": "a67427fe-5f34-5478-94f3-54e9c9421f89",
+      "document_id": "fractures-and-broken-bones",
+      "section_index": 2,
+      "title_th": "กระดูกหัก",
+      "aliases": "กระดูกหัก แขนหัก ขาหัก ดาม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:46.413650+00:00",
+      "text": "with a bandage. Advise the casualty to keep still while you support the injured part to stop it from moving. Do this by holding the joint above and below the injured area. Place padding around the injury for extra support. Ask the patient if they have any changes in the sensation of the affected bone or site: feels normal pins and needles feels hot or cold can't feel anything or numb If you have not called 999 or 112 for emergency help, do this now. Do not move the casualty until the injured part is secured, unless they are in immediate danger. You can secure an upper limb fracture with a sling and a lower limb fracture with broad fold bandages. If necessary, treat for shock , but do not raise the legs if either are suspected to be broken or there is injury to the pelvis or a hip. Monitor until help arrives.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.4891605098357842,
+      "retrieval": "vector"
+    },
+    {
+      "id": "3cbd82a6-8746-52b2-a7c3-04a269effeb2",
+      "document_id": "electrocution",
+      "section_index": 1,
+      "title_th": "ไฟฟ้าช็อต",
+      "aliases": "ไฟฟ้าช็อต ไฟดูด กระแสไฟฟ้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/electrocution/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:58.250850+00:00",
+      "text": "away from the source. If it’s not possible to break contact using a wooden object, loop some rope around the underneath of the casualty’s arms or ankles and pull them away from the electrical source. Do not touch the casualty. Once you’re sure the contact has been broken between the casualty and the electrical source, perform a primary survey and treat any injuries. Call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.48486923277559113,
+      "retrieval": "vector"
+    },
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.4757937438786817,
+      "retrieval": "graph"
+    },
+    {
+      "id": "95a14b1c-7a34-5eca-a314-176be5cb61c9",
+      "document_id": "primary-survey",
+      "section_index": 1,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help. Airway. Next, you need to check that the airway is open and clear. Open the airway by placing one hand on the forehead to tilt the head back and use two fingers from the other hand to lift the chin. Breathing. You now need to check if the casualty is breathing normally. Keep the airway held open, place your ear above their mouth and look down at their chest. Listen for sounds of breathing and see if you can feel their breath on your cheek. Watch to see if their chest moves. Do this for no more than 10 seconds. Please note: During the first minutes of cardiac arrest, about half of casualties will do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.40248645600384286,
+      "retrieval": "graph"
+    },
+    {
+      "id": "28f7841a-1458-5fdb-b15f-d95a29500014",
+      "document_id": "recovery-position",
+      "section_index": 2,
+      "title_th": "ท่าพักฟื้น",
+      "aliases": "หมดสติ ไม่รู้สึกตัว หายใจปกติ ท่าพักฟื้น ตะแคง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:38.016286+00:00",
+      "text": "need to place them in the recovery position. If you are alone, place them in the recovery position following the normal technique. Try to keep the head and spine in a straight line where possible while maintaining an open airway. If you have a helper, one of you should steady the head and neck while maintaining an open airway, keeping it in line with the spine while the other turns the casualty into the recovery position following the normal technique. If there are four or more people, you can use the log roll technique but you need to be with someone who has been taught this on a First Aid course.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.37260612475143434,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "cpr",
+      "steps": [
+        {
+          "from": "topic:choking",
+          "to": "topic:cpr",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/choking/",
+            "https://www.sja.org.uk/first-aid-advice/cpr/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "primary-survey",
+      "steps": [
+        {
+          "from": "topic:seizure",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/seizure/",
+            "https://www.sja.org.uk/first-aid-advice/primary-survey/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "recovery-position",
+      "steps": [
+        {
+          "from": "topic:seizure",
+          "to": "topic:recovery-position",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/seizure/",
+            "https://www.sja.org.uk/first-aid-advice/recovery-position/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    1,
+    2
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "c598305c-0e55-4ecc-a22f-00d9f501ef04",
+  "created_at": "2026-10-12T07:40:30.202240+00:00"
+}

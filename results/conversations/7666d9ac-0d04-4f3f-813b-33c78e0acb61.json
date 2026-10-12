@@ -1,0 +1,208 @@
+{
+  "answer": "เมื่อผู้ใหญ่เลือดกำเดาไหล ควรก้มหน้าลง (เลือดจะไหลออกจากจมูก ไม่ควรเงยหน้า) และควรบีบจมูกให้แน่นด้วยมือหนึ่งเพื่อป้องกันเลือดไหลเข้าไปในทางเดินหายใจ [S1]  \n\nหลังจากนั้นให้ให้ผู้ป่วยก้มหน้าและยืนหรือนอนอยู่ในท่าที่ก้มหน้าเพื่อช่วยให้เลือดไหลออกจากจมูกได้ดีขึ้น หลีกเลี่ยงการหายใจเข้าไปในทางเดินหายใจโดยการบีบจมูกอย่างรุนแรง  \n\nหากเลือดไหลนานเกิน 30 นาที หรือมีอาการรุนแรง ควรเรียกสายด่วน 1669 ทันที [S1]  \n\n**สิ่งที่ควรทำ:**  \n- ก้มหน้าลง  \n- บีบจมูกให้แน่นด้วยมือหนึ่ง  \n- ล้างบริเวณจมูกด้วยน้ำอุ่นหลังเลือดหยุดไหล  \n- ให้ผู้ป่วยพัก หลีกเลี่ยงการหายใจเข้าหรือสูดลมเข้าไปในจมูก  \n\n**สิ่งที่ไม่ควรทำ:**  \n- เงยหน้า  \n- บีบจมูกเบา ๆ  \n- ใช้แรงกดที่จมูกมากเกินไป  \n\nหากเลือดไหลนานเกิน 30 นาที ต้องเรียก 1669 ทันที [S1]",
+  "usage": {
+    "completion_tokens": 417,
+    "prompt_tokens": 2132,
+    "total_tokens": 2549,
+    "prompt_tokens_details": {
+      "cached_tokens": 1300
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่เลือดกำเดาไหล ควรก้มหน้าหรือเงยหน้า และควรบีบจมูกอย่างไร?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 9.22,
+  "contexts": [
+    {
+      "id": "4d38830d-2eee-5a4c-ae81-1bfa165dfd3f",
+      "document_id": "nosebleed",
+      "section_index": 1,
+      "title_th": "เลือดกำเดา",
+      "aliases": "เลือดกำเดา จมูก เงยหน้า ก้มหน้า",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/nosebleed/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:44.442320+00:00",
+      "text": "of 10 minutes. Once the bleeding has stopped, ask them to keep leaning forwards while you clean around their nose with lukewarm water. Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots. If the bleeding is severe, or if it lasts more than 30 minutes, call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6993562335927147,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6193854888224621,
+      "retrieval": "vector"
+    },
+    {
+      "id": "95a14b1c-7a34-5eca-a314-176be5cb61c9",
+      "document_id": "primary-survey",
+      "section_index": 1,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help. Airway. Next, you need to check that the airway is open and clear. Open the airway by placing one hand on the forehead to tilt the head back and use two fingers from the other hand to lift the chin. Breathing. You now need to check if the casualty is breathing normally. Keep the airway held open, place your ear above their mouth and look down at their chest. Listen for sounds of breathing and see if you can feel their breath on your cheek. Watch to see if their chest moves. Do this for no more than 10 seconds. Please note: During the first minutes of cardiac arrest, about half of casualties will do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6165253896004803,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6046382186205317,
+      "retrieval": "vector"
+    },
+    {
+      "id": "32fbb4b6-b9eb-511f-a8f2-8ce7ed3e583e",
+      "document_id": "severe-bleeding",
+      "section_index": 1,
+      "title_th": "เลือดออกรุนแรง",
+      "aliases": "ห้ามเลือด เลือดออก แผลฉีกขาด กดแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.980378+00:00",
+      "text": "to uncover the wound. If there’s an object in the wound, don’t pull it out. It may be acting as a plug to reduce the bleeding Instead, apply pressure on either side of the object to push the edges together. Ask a helper to call 999 or 112 for emergency help. Give the emergency call handler details of where the wound is and the extent of the bleeding. If you are on your own, use the hands-free speaker on a phone so that you can treat the casualty while speaking to the emergency call handler. Firmly secure the dressing with a bandage to maintain pressure on the wound. Make it firm enough to maintain pressure but not so tight that it restricts their circulation. Check their circulation beyond the bandage. Press one of the nails or the skin beyond the bandage for five seconds until it turns pale, then release the pressure. If the colour does not return within two seconds, the bandage is too tight. If necessary, loosen and reapply the bandage.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.600392626040411,
+      "retrieval": "vector"
+    },
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5680904639788881,
+      "retrieval": "graph"
+    },
+    {
+      "id": "bbf63af9-9b8c-5227-97ce-db74fc9ae7ff",
+      "document_id": "shock",
+      "section_index": 1,
+      "title_th": "ภาวะช็อก",
+      "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/shock/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:40.771261+00:00",
+      "text": "supply decreases yawning and gasping for air the casualty could become unresponsive. What to do First, treat any cause of shock that you can see or that you have identified from the primary survey , such as severe bleeding . Then help the casualty to lie down. Raise their legs, supporting them on a chair. This will help to improve the blood supply to their vital organs. If available, lay them down on a rug or blanket to protect them from the cold. Call 999 or 112 for emergency help and tell ambulance control you think they are in shock. If possible, explain what you think caused it. Loosen any tight clothing around the neck, chest, and waist to make sure it doesn’t constrict their blood flow. While waiting for help to arrive, cover them with a coat or blanket to help keep them warm. Remember, fear and pain can make shock worse by increasing the body’s demand for oxygen, so try to reassure the casualty and keep them calm if you can. Monitor their level of response. If they become unresponsive at any point, prepare to treat them as an unresponsive casualty.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.528538638298721,
+      "retrieval": "graph"
+    },
+    {
+      "id": "40b8a16d-409c-583c-a20d-abd4a38e25c9",
+      "document_id": "recovery-position",
+      "section_index": 0,
+      "title_th": "ท่าพักฟื้น",
+      "aliases": "หมดสติ ไม่รู้สึกตัว หายใจปกติ ท่าพักฟื้น ตะแคง",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:38.016286+00:00",
+      "text": "It’s safe to place someone in the recovery position who is not responding to you but is breathing normally. Learn what to do. Emergency advice When to put someone in the recovery position It’s safe to place someone in the recovery position who is not responding to you but is breathing normally. When someone is put into the recovery position, their airway is kept open and any vomit can drain away without interfering with their breathing. What to do If you find someone collapsed, you should first perform a primary survey . If it shows that they are unresponsive but breathing, put them in the recovery position. Kneel by the casualty and straighten their legs. If they are wearing glasses, or have any bulky items in their pockets, remove them. Do not search their pockets for small items. Place the arm that is nearest to you at a right angle to their body, with the elbow bent and their palm facing upwards. Bring their other arm across their chest and place the back of their hand against the cheek nearest to you. Hold it there. With your other hand, pull their far knee up so that their foot is flat on the floor.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5219197289767028,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "cpr",
+      "steps": [
+        {
+          "from": "topic:choking",
+          "to": "topic:cpr",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/choking/",
+            "https://www.sja.org.uk/first-aid-advice/cpr/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "recovery-position",
+      "steps": [
+        {
+          "from": "topic:primary-survey",
+          "to": "topic:recovery-position",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+            "https://www.sja.org.uk/first-aid-advice/recovery-position/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "shock",
+      "steps": [
+        {
+          "from": "topic:severe-bleeding",
+          "to": "topic:shock",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+            "https://www.sja.org.uk/first-aid-advice/shock/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    1
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "7666d9ac-0d04-4f3f-813b-33c78e0acb61",
+  "created_at": "2026-10-12T07:40:21.609085+00:00"
+}

@@ -1,0 +1,347 @@
+[
+  {
+    "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+    "k": 3,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.5787445996911293,
+    "documents": [
+      "burns-and-scalds",
+      "cuts-and-grazes",
+      "nosebleed"
+    ]
+  },
+  {
+    "question": "สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?",
+    "k": 3,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.628574171029403,
+    "documents": [
+      "fractures-and-broken-bones",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?",
+    "k": 3,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.5603541110712633,
+    "documents": [
+      "choking",
+      "severe-bleeding",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?",
+    "k": 3,
+    "mode": "vector",
+    "evidence_recall": 0.0,
+    "top_score": 0.5656797880753335,
+    "documents": [
+      "choking",
+      "cpr",
+      "recovery-position"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+    "k": 3,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.5787445996911295,
+    "documents": [
+      "burns-and-scalds",
+      "cuts-and-grazes",
+      "nosebleed"
+    ]
+  },
+  {
+    "question": "สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?",
+    "k": 3,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.628574171029403,
+    "documents": [
+      "fractures-and-broken-bones",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?",
+    "k": 3,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.5603541110712633,
+    "documents": [
+      "choking",
+      "cpr",
+      "severe-bleeding",
+      "shock",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?",
+    "k": 3,
+    "mode": "graph",
+    "evidence_recall": 0.0,
+    "top_score": 0.5656797880753335,
+    "documents": [
+      "choking",
+      "cpr",
+      "how-to-use-a-defibrillator",
+      "recovery-position"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+    "k": 5,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.5787445996911295,
+    "documents": [
+      "burns-and-scalds",
+      "choking",
+      "cuts-and-grazes",
+      "nosebleed",
+      "severe-bleeding"
+    ]
+  },
+  {
+    "question": "สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?",
+    "k": 5,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.628574171029403,
+    "documents": [
+      "fractures-and-broken-bones",
+      "spinal-injury",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?",
+    "k": 5,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.5603541110712633,
+    "documents": [
+      "choking",
+      "insect-bites-and-stings",
+      "severe-bleeding",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?",
+    "k": 5,
+    "mode": "vector",
+    "evidence_recall": 0.0,
+    "top_score": 0.5656797880753335,
+    "documents": [
+      "choking",
+      "cpr",
+      "head-injury",
+      "recovery-position"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+    "k": 5,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.5787445996911295,
+    "documents": [
+      "burns-and-scalds",
+      "choking",
+      "cpr",
+      "cuts-and-grazes",
+      "nosebleed",
+      "severe-bleeding",
+      "shock"
+    ]
+  },
+  {
+    "question": "สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?",
+    "k": 5,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.628574171029403,
+    "documents": [
+      "fractures-and-broken-bones",
+      "primary-survey",
+      "spinal-injury",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?",
+    "k": 5,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.5603541110712633,
+    "documents": [
+      "anaphylaxis",
+      "choking",
+      "cpr",
+      "insect-bites-and-stings",
+      "severe-bleeding",
+      "shock",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?",
+    "k": 5,
+    "mode": "graph",
+    "evidence_recall": 0.0,
+    "top_score": 0.5656797880753335,
+    "documents": [
+      "choking",
+      "cpr",
+      "head-injury",
+      "how-to-use-a-defibrillator",
+      "recovery-position",
+      "spinal-injury"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+    "k": 8,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.5787445996911295,
+    "documents": [
+      "burns-and-scalds",
+      "chemical-burn",
+      "choking",
+      "cuts-and-grazes",
+      "electrocution",
+      "fractures-and-broken-bones",
+      "nosebleed",
+      "severe-bleeding"
+    ]
+  },
+  {
+    "question": "สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?",
+    "k": 8,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.628574171029403,
+    "documents": [
+      "fractures-and-broken-bones",
+      "recovery-position",
+      "severe-bleeding",
+      "spinal-injury",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?",
+    "k": 8,
+    "mode": "vector",
+    "evidence_recall": 1.0,
+    "top_score": 0.5603541110712633,
+    "documents": [
+      "burns-and-scalds",
+      "choking",
+      "fractures-and-broken-bones",
+      "insect-bites-and-stings",
+      "nosebleed",
+      "severe-bleeding",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?",
+    "k": 8,
+    "mode": "vector",
+    "evidence_recall": 0.0,
+    "top_score": 0.5656797880753335,
+    "documents": [
+      "choking",
+      "cpr",
+      "drowning",
+      "head-injury",
+      "nosebleed",
+      "recovery-position",
+      "severe-bleeding"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่แผลถลอกเข่าควรทำความสะอาดอย่างไร?",
+    "k": 8,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.5787445996911295,
+    "documents": [
+      "burns-and-scalds",
+      "chemical-burn",
+      "choking",
+      "cpr",
+      "cuts-and-grazes",
+      "electrocution",
+      "fractures-and-broken-bones",
+      "nosebleed",
+      "primary-survey",
+      "severe-bleeding",
+      "shock"
+    ]
+  },
+  {
+    "question": "สงสัยกระดูกแขนหัก ควรขยับแขนกลับเข้าที่ไหม?",
+    "k": 8,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.628574171029403,
+    "documents": [
+      "fractures-and-broken-bones",
+      "primary-survey",
+      "recovery-position",
+      "severe-bleeding",
+      "spinal-injury",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่ข้อเท้าแพลง ควรประคบอย่างไร?",
+    "k": 8,
+    "mode": "graph",
+    "evidence_recall": 1.0,
+    "top_score": 0.5603541110712633,
+    "documents": [
+      "anaphylaxis",
+      "burns-and-scalds",
+      "choking",
+      "cpr",
+      "fractures-and-broken-bones",
+      "insect-bites-and-stings",
+      "nosebleed",
+      "severe-bleeding",
+      "shock",
+      "sprains-and-strains"
+    ]
+  },
+  {
+    "question": "ผู้ใหญ่เป็นลมแล้วฟื้น ควรดูแลและประเมินอย่างไร?",
+    "k": 8,
+    "mode": "graph",
+    "evidence_recall": 0.5,
+    "top_score": 0.5656797880753335,
+    "documents": [
+      "choking",
+      "cpr",
+      "drowning",
+      "head-injury",
+      "nosebleed",
+      "primary-survey",
+      "recovery-position",
+      "severe-bleeding",
+      "shock",
+      "spinal-injury"
+    ]
+  }
+]

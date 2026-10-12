@@ -1,0 +1,18 @@
+{
+  "chat_provider": "openai_compatible",
+  "chat_url": "http://127.0.0.1:8090/v1",
+  "chat_model": "Qwen3-4B-Instruct-2507",
+  "embedding_url": "http://127.0.0.1:8091/v1",
+  "embedding_model": "Qwen3-Embedding-0.6B",
+  "ollama_url": "http://127.0.0.1:11434",
+  "temperature": 0.1,
+  "max_tokens": 650,
+  "k": 5,
+  "candidate_k": 12,
+  "graph_hops": 1,
+  "graph_extra_documents": 3,
+  "min_similarity": 0.3,
+  "chunk_words": 220,
+  "overlap_words": 40,
+  "context_char_budget": 10000
+}

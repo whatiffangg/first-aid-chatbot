@@ -1,0 +1,120 @@
+{
+  "answer": "สำหรับทารก 8 เดือนที่สำลักและไม่สามารถไอ ร้อง หรือหายใจได้ ควรทำตามขั้นตอนดังนี้:\n\n1. วางทารกให้หน้าลงบนขาของคุณ หัวอยู่ในระดับที่ปลอดภัย แล้วให้ตบหลังระหว่างข้อมือ (5 ครั้ง) อย่างแรง ระหว่างที่ยังคงหัวอยู่ในตำแหน่งนี้\n\n2. หลังจากตบ 5 ครั้ง หันทารกให้หัวขึ้นบนขาของคุณ ตรวจสอบปากเพื่อดูว่ามีวัตถุที่ขัดกั้นหรือไม่ ถ้ามี ให้เอาออกทันที โดยไม่สั่นปาก เพราะอาจทำให้วัตถุเคลื่อนเข้าไปในทางเดินหายใจมากขึ้น\n\n3. ถ้าการตบหลังไม่ช่วย ให้ทำการกดหน้าอก (chest thrusts) ด้วยเทคนิค \"สองนิ้วหุ้ม\" ด้วยการกดที่กระดูกหน้าอกอย่างชัดเจน 5 ครั้ง แล้วตรวจสอบปากอีกครั้ง\n\n4. ทำซ้ำขั้นตอนตบหลังและกดหน้าอก 5 ครั้ง ทุกครั้งที่หันทารกกลับมา จนกว่าจะเห็นวัตถุถูกขับออกหรือได้รับการช่วยเหลือ\n\n5. หากทารกไม่ตอบสนอง หรือไม่หายใจ ให้เรียกสายด่วน 1669 ทันที และดำเนินการ CPR ตามขั้นตอนเบื้องต้น (DRABC) ทันที [S1]",
+  "usage": {
+    "completion_tokens": 461,
+    "prompt_tokens": 1396,
+    "total_tokens": 1857,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ทารก 8 เดือนสำลัก ไม่สามารถไอ ร้อง หรือหายใจได้ ขั้นตอนตบหลังและกดหน้าอกตามคู่มือคืออะไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 8.07,
+  "contexts": [
+    {
+      "id": "651b6e13-facc-5c02-8369-cd480425db4d",
+      "document_id": "baby-choking",
+      "section_index": 1,
+      "title_th": "ทารกสำลัก",
+      "aliases": "ทารก เด็กเล็ก ต่ำกว่า 1 ปี สำลัก",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/baby-choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "infant",
+      "retrieved_at": "2026-10-12T07:19:49.138421+00:00",
+      "text": "blows. Lay the baby face down along your thigh and support their head Give up to five back blows between the shoulder blades Turn them over on your thigh and check their mouth each time. Remove any obvious visible obstruction. Do not sweep the mouth as this could push the object further down the throat. If back blows fail to clear the obstruction, give five chest thrusts. Turn the infant onto their back and lay them on your knees Use the two-thumb encircling technique to perform chest trusts as advised for chest compressions, but compress the sternum more sharply Repeat up to five times, checking the mouth each time Call 999 or 112 for emergency help if the obstruction hasn't cleared. Take the baby with you to make the call. Keep repeating five back blows and five chest thrusts until help arrives, checking their mouth each time. If the baby becomes unresponsive at any point, carry out a Primary Survey DRABC assessment and start baby CPR if required . All babies who have received chest thrusts should be seen in hospital.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6909248991276298,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6030679793170635,
+      "retrieval": "vector"
+    },
+    {
+      "id": "95a14b1c-7a34-5eca-a314-176be5cb61c9",
+      "document_id": "primary-survey",
+      "section_index": 1,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help. Airway. Next, you need to check that the airway is open and clear. Open the airway by placing one hand on the forehead to tilt the head back and use two fingers from the other hand to lift the chin. Breathing. You now need to check if the casualty is breathing normally. Keep the airway held open, place your ear above their mouth and look down at their chest. Listen for sounds of breathing and see if you can feel their breath on your cheek. Watch to see if their chest moves. Do this for no more than 10 seconds. Please note: During the first minutes of cardiac arrest, about half of casualties will do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5735233892073848,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bb068464-a0d0-537b-8db8-a799343cc840",
+      "document_id": "anaphylaxis",
+      "section_index": 2,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up. Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5576268130582196,
+      "retrieval": "vector"
+    },
+    {
+      "id": "7628c4f0-6a11-52f0-8cdd-cb1d1aa67c3e",
+      "document_id": "seizure",
+      "section_index": 1,
+      "title_th": "ชัก",
+      "aliases": "ชัก ลมชัก เกร็ง หมดสติ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:53.298441+00:00",
+      "text": "arching back noisy, difficult breathing grey-blue tinge on the lips jerky, uncontrolled movements or twitching saliva at the mouth, possibly blood stained if they have accidentally bitten their tongue or lip loss of bladder or bowel control What to do With any seizure, it is important to first protect the casualty from harming themselves during the fit. Ask any bystanders to step back, help to protect the casualty's privacy as much as possible, and clear away any potentially dangerous objects, like hot drinks or sharp objects. Make a note of the time that the seizure started. Do not restrain the casualty or move them unless they are in immediate danger. Do not put anything in their mouth. Protect their head by placing soft padding underneath it, like a rolled-up towel or pillows. You should also loosen any clothing around their neck. You can surround small children with padding for safety. Try to cool them by taking off bedding and strip them of a single layer of clothing, but make sure they don't get cold. You might need to wait for the seizure to stop to do this. It can be helpful to capture a video of the seizure on your mobile phone if you can. This can aid diagnosis.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5467541826833651,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "33b7aaff-bab6-45ec-818a-dca402c8f1fc",
+  "created_at": "2026-10-12T07:38:08.869658+00:00"
+}

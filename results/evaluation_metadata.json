@@ -1,0 +1,11 @@
+{
+ "evaluator":"Codex LLM assistant in this conversation, separate from Qwen respondent",
+ "method":"Per-answer review of actual saved response against reference checklist and retrieved source passages; explicit reasons recorded in grades.json",
+ "rubric":"evaluation/rubric.md",
+ "scale":"five dimensions, each integer 0–4, total 0–20",
+ "human_evaluation_completed":false,
+ "clinical_validation_completed":false,
+ "limitations":["Reviewer participated in drafting the gold checklist", "Not a blind or independent clinical evaluation", "D01 was seen in a pilot while selecting the model", "Ratings are subjective and should be double-scored by a first-aid instructor"],
+ "date_local":"2026-10-12",
+ "timezone":"Asia/Bangkok"
+}

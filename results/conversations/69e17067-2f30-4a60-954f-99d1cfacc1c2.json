@@ -1,0 +1,121 @@
+{
+  "answer": "FAST คือคำย่อที่ใช้ในการสังเกตอาการโรคหลอดเลือดสมอง ซึ่งหมายถึง:\n\n- **F (Face)**: ดูใบหน้า ว่ามีอาการอ่อนแรงหรือไม่ เช่น ยิ้มไม่สมดุล ปากตกหรือตาตก  \n- **A (Arms)**: ถามให้ยกแขนทั้งสองข้าง ถ้ายกได้แค่ข้างเดียว อาจมีอาการอ่อนแรง  \n- **S (Speech)**: ถามว่าชื่อของตนคืออะไร ถ้าพูดไม่ชัด หรือไม่เข้าใจคำพูด อาจมีปัญหาการพูด  \n- **T (Time)**: ถ้าพบอาการเหล่านี้ ต้องเรียกช่วยทันที โทร 1669 ทันที และแจ้งว่าสงสัยว่าเป็นโรคหลอดเลือดสมอง [S1]\n\nเมื่อพบอาการ ควรทำดังนี้:  \n1. ใช้แนวทาง FAST เพื่อสังเกตอาการอย่างรวดเร็ว  \n2. โทร 1669 ทันทีเพื่อขอความช่วยเหลือทางการแพทย์  \n3. ขณะรอช่วยเหลือ ให้ผู้ป่วยอยู่ในท่าที่สบาย ไม่ให้กินหรือดื่มอะไร เพราะอาจกินไม่ได้หรือกินไม่ปลอดภัย [S2]  \n4. ติดตามอาการอย่างต่อเนื่อง ถ้าผู้ป่วยไม่ตอบสนอง ควรเตรียมการดูแลผู้ป่วยที่ไม่ตอบสนองตามขั้นตอนที่เหมาะสม [S2]",
+  "usage": {
+    "completion_tokens": 421,
+    "prompt_tokens": 1506,
+    "total_tokens": 1927,
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "FAST ในการสังเกตโรคหลอดเลือดสมองหมายถึงอะไร และถ้าพบอาการต้องทำอย่างไร?",
+  "mode": "vector",
+  "k": 5,
+  "elapsed_seconds": 7.194,
+  "contexts": [
+    {
+      "id": "a4ac93d5-82de-58f9-8f18-94c50fbd35c4",
+      "document_id": "stroke",
+      "section_index": 0,
+      "title_th": "โรคหลอดเลือดสมอง",
+      "aliases": "สโตรก หน้าเบี้ยว แขนอ่อนแรง พูดไม่ชัด FAST",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/stroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:55.692695+00:00",
+      "text": "A stroke is a medical emergency and you need to act FAST. Emergency advice What is a stroke? A stroke can occur when blood supply to the brain is disrupted and starves the brain of oxygen. It is caused by either a blockage or a bleed in the brain's blood vessels. Signs and symptoms Look for: Facial weakness - uneven smile, droopy mouth, or eye. Arm weakness - can they raise both arms? Speech problems - can they speak clearly? A good way to remember what to look for is using the acronym FAST , which stands for Face, Arms, Speech, Time (meaning it's time to call 999 or 112). Other symptoms may include: blurred vision confusion dizziness headaches feeling or being sick What to do F – facial weakness. Look at their mouth or eyes – they may be droopy and they might not be able to smile evenly. A – arm weakness. Ask them to raise both of their arms. They may only be able to raise one. S - speech problems. They are unable to speak clearly or might not be able to understand what you are saying to them. Ask them a question, such as ‘What is your name?’ Can they respond appropriately?",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.7212536441632563,
+      "retrieval": "vector"
+    },
+    {
+      "id": "2b2c03b0-3c43-571a-9ef6-82cdf5a608a4",
+      "document_id": "stroke",
+      "section_index": 1,
+      "title_th": "โรคหลอดเลือดสมอง",
+      "aliases": "สโตรก หน้าเบี้ยว แขนอ่อนแรง พูดไม่ชัด FAST",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/stroke/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:55.692695+00:00",
+      "text": "to raise one. S - speech problems. They are unable to speak clearly or might not be able to understand what you are saying to them. Ask them a question, such as ‘What is your name?’ Can they respond appropriately? T – time to call 999 or 112 for emergency help and tell them you suspect a stroke after using the FAST guide. While waiting for help to arrive, keep them comfortable, supported, and reassure them. Do not give them anything to eat or drink because it may be hard for them to swallow. Keep monitoring their level of response until help arrives. If they become unresponsive, prepare to treat them as an unresponsive casualty .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6522518652569529,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.503332550584531,
+      "retrieval": "vector"
+    },
+    {
+      "id": "ba57c801-9970-5ef4-a919-67efc9db500b",
+      "document_id": "heart-attack",
+      "section_index": 0,
+      "title_th": "หัวใจวาย",
+      "aliases": "หัวใจวาย เจ็บหน้าอก เหงื่อ หัวใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/heart-attack/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:20:03.999915+00:00",
+      "text": "A heart attack happens when the supply of blood to part of the heart is suddenly blocked, usually by a blood clot. Find out what to do and how to perform first aid. Emergency advice What is a heart attack? A heart attack happens when the supply of blood to part of the heart is suddenly blocked, usually by a blood clot. You can make a full recovery following a heart attack, but this may depend on how much of the heart is affected. Signs and symptoms Someone having a heart attack may: have crushing pain in the centre of their chest, that may spread to their jaw, and down one or both arms be breathless or gasping for breath be sweating profusely experience pain similar to indigestion collapse without warning complain of dizziness have pale skin and their lips may have a blue tinge have a rapid, weak, or irregular pulse have a feeling of impending doom. What to do Call 999 or 112 for emergency help straight away and tell them you think someone is having a heart attack. Help move the casualty into a comfortable position. The best position is on the floor, with their knees bent and their head and shoulders supported. You could place cushions behind them or under their knees.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5000815054835168,
+      "retrieval": "vector"
+    },
+    {
+      "id": "1163f229-9372-52e2-b5e7-1a52ac2296a2",
+      "document_id": "primary-survey",
+      "section_index": 0,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "Use the primary survey to quickly assess the situation and the casualty. Emergency advice What is the primary survey? The primary survey is a quick way to find out how to treat any life-threatening conditions a casualty may have in order of priority. We can use DR ABC to do this: Danger, Response, Airway, Breathing and Circulation. Danger. Before approaching the casualty, always make sure the area is safe. Response. Check if the casualty is responsive or unresponsive. As you approach them, introduce yourself and ask them questions to see if you can get a response. Kneel next to their chest and gently shake their shoulders, asking, ‘Are you OK?’, ‘Can you open your eyes?’. If the casualty opens their eyes, or gives another gesture, they are responsive. If they do not respond to you in any way, they are unresponsive and should be treated as quickly as possible. If there is life-threatening bleeding (massive amounts of blood pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.4870186194715252,
+      "retrieval": "vector"
+    }
+  ],
+  "graph_paths": [],
+  "citation_ids": [
+    1,
+    2
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "69e17067-2f30-4a60-954f-99d1cfacc1c2",
+  "created_at": "2026-10-12T07:38:16.074223+00:00"
+}

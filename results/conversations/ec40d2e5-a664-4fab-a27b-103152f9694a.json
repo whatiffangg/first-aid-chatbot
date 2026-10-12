@@ -1,0 +1,183 @@
+{
+  "answer": "เมื่อผู้ใหญ่ถูกผึ้งต่อยที่ลิ้นและหายใจลำบาก นี่เป็นกรณีที่รุนแรงกว่าแมลงต่อยธรรมดา เพราะอาจเกิดการบวมของทางเดินหายใจได้ ซึ่งเป็นอันตรายต่อชีวิต [S2] ควรดำเนินการดังนี้:\n\n1. ให้ผู้ป่วยนอนราบ ยกขา เพื่อช่วยลดการบวม แต่ถ้าหายใจลำบาก ให้ยืนหรือนั่งขึ้นเพื่อช่วยการหายใจ [S5]  \n2. ต้องตั้งใจสังเกตอาการ เช่น อาการบวม ผื่น หรืออาการแพ้รุนแรง [S2]  \n3. ต้องเรียกสายด่วน 1669 ทันที เพราะอาจเกิดภาวะแพ้รุนแรง (anaphylaxis) ที่ต้องรับการรักษาเร่งด่วน [S1][S5]  \n4. อย่าพยายามดึงแมลงออก เพราะอาจทำให้สารพิษเข้าสู่ร่างกายมากขึ้น [S2]  \n5. อย่าให้กินหรือดื่มอะไรใดๆ เพื่อป้องกันการดูดซึมสารพิษ [S4]\n\nคำแนะนำนี้ต้องเชื่อมกับหัวข้อ **\"แพ้รุนแรง\"** และ **\"แมลงต่อย\"** โดยเฉพาะกรณีที่มีอาการบวมที่ทางเดินหายใจ [S2][S5]  \n\nหากผู้ป่วยไม่ตอบสนองหรือหายใจไม่ได้ ต้องเริ่มทำ CPR ทันที [S6] และเรียก 1669 ทันที [S1]",
+  "usage": {
+    "completion_tokens": 451,
+    "prompt_tokens": 1766,
+    "total_tokens": 2217,
+    "prompt_tokens_details": {
+      "cached_tokens": 1166
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "ผู้ใหญ่ถูกผึ้งต่อยแล้วลิ้นบวมและหายใจลำบาก คำแนะนำต่างจากแมลงต่อยธรรมดาอย่างไร และต้องเชื่อมหัวข้อใด?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 9.405,
+  "contexts": [
+    {
+      "id": "a725788b-f6a7-5b8e-b4de-34062e237d46",
+      "document_id": "insect-bites-and-stings",
+      "section_index": 1,
+      "title_th": "แมลงต่อย",
+      "aliases": "ผึ้งต่อย แมลงต่อย เหล็กใน แพ้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:52.489793+00:00",
+      "text": "and hold something cold against the injury to help reduce the swelling. Use an ice pack (or a frozen bag of vegetables wrapped in a tea towel or thin towel to avoid direct contact of the ice with the skin). Keep the cold compress on for 15-20 minutes. You can repeat this each hour, but do not leave the ice on for longer than 20 minutes at a time. If the sting is in the mouth or throat, the casualty can suck an ice cube or sip cold water to try to prevent any swelling. Monitor their breathing and level of response. Call 999 or 112 for emergency help if the casualty shows signs of a severe allergic reaction (anaphylaxis).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.6741551808848052,
+      "retrieval": "vector"
+    },
+    {
+      "id": "dfa06dc2-a812-5a0d-a8f7-294a4a4f26b9",
+      "document_id": "insect-bites-and-stings",
+      "section_index": 0,
+      "title_th": "แมลงต่อย",
+      "aliases": "ผึ้งต่อย แมลงต่อย เหล็กใน แพ้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/insect-bites-and-stings/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:52.489793+00:00",
+      "text": "Insect stings can be painful but are not usually dangerous. However, stings to the mouth or throat can be more serious. You should also watch for signs of an allergic reaction. Emergency advice What are insect stings? Insect stings can be painful but are not usually dangerous. However, if the insect sting is in the mouth or throat this can be more serious as it could lead to swelling of the airway and obstruction. Watch for signs of an allergic reaction, which can lead to anaphylactic shock. Signs and symptoms Look for: stinging pain redness that spreads irritation or itching hives (rash with red, raised, itchy bumps) What to do Reassure the casualty. If you can see the sting, brush or scrape it off sideways with something firm like a fingernail, credit card, or plastic ruler as soon as possible. Don’t try to use tweezers to pull it out because you could squeeze poison from the sting into the casualty. Raise the affected area and hold something cold against the injury to help reduce the swelling. Use an ice pack (or a frozen bag of vegetables wrapped in a tea towel or thin towel to avoid direct contact of the ice with the skin).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.644360492221195,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5645078797998487,
+      "retrieval": "vector"
+    },
+    {
+      "id": "11b158b5-a023-5e90-84ed-a0009feb33e4",
+      "document_id": "poisoning",
+      "section_index": 1,
+      "title_th": "ได้รับสารพิษ",
+      "aliases": "สารพิษ กินน้ำยาล้างห้องน้ำ ยาพิษ อาเจียน",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/poisoning/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:20:01.758013+00:00",
+      "text": "pains reduced level of response. What to do If the person is responsive, ask them what they have swallowed, when, and how much. There might be some clues around them, like empty packaging and containers, or poisonous plants and berries. Call 999 or 112 for emergency help and give them as much information as possible. If you can, keep any packaging or labels to show the emergency services. Keep checking their breathing and response. Do not try to make them vomit. If they do vomit, then put some of this into a bag or container and give it to the healthcare professionals along with any other clues. This may help them identify the poison. Do not give the casualty anything to eat or drink. If they become unresponsive, open their airway, check their breathing, and prepare to give CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5507266228422687,
+      "retrieval": "vector"
+    },
+    {
+      "id": "bb068464-a0d0-537b-8db8-a799343cc840",
+      "document_id": "anaphylaxis",
+      "section_index": 2,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up. Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5408117999351549,
+      "retrieval": "vector"
+    },
+    {
+      "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+      "document_id": "primary-survey",
+      "section_index": 2,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5292895982118024,
+      "retrieval": "graph"
+    },
+    {
+      "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+      "document_id": "cpr",
+      "section_index": 2,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.4491738882788271,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "cpr",
+      "steps": [
+        {
+          "from": "topic:choking",
+          "to": "topic:cpr",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/choking/",
+            "https://www.sja.org.uk/first-aid-advice/cpr/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "primary-survey",
+      "steps": [
+        {
+          "from": "topic:poisoning",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/poisoning/",
+            "https://www.sja.org.uk/first-aid-advice/primary-survey/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "ec40d2e5-a664-4fab-a27b-103152f9694a",
+  "created_at": "2026-10-12T07:42:05.478094+00:00"
+}

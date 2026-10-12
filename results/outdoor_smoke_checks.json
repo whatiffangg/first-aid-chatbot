@@ -1,0 +1,426 @@
+{
+  "type": "live smoke checks; no human or clinical scores",
+  "rows": [
+    {
+      "answer": "1. พาขึ้นจากน้ำอย่างปลอดภัย ให้อยู่นิ่ง และโทร 1669 ทันที [S1]\n2. ห้ามขัดถูหรือราดน้ำจืดและแอลกอฮอล์บริเวณที่โดนแมงกะพรุน [S1]\n3. ถ้าไม่ตอบสนองและไม่หายใจปกติ ให้เริ่ม CPR ตามเจ้าหน้าที่ 1669 ก่อนราดน้ำส้มสายชู [S1] [S2] [S3]\n4. ราดน้ำส้มสายชู 4–6% ให้ทั่วบริเวณที่โดน อย่างต่อเนื่องอย่างน้อย 30 วินาที [S1]\n5. รีบนำส่งโรงพยาบาล และอยู่กับผู้บาดเจ็บตลอดระหว่างรอความช่วยเหลือ [S1] [S2] [S3]",
+      "model": "firstaid-qwen",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 2506,
+        "completion_tokens": 267
+      },
+      "generation_mode": "qwen_constrained_source_steps",
+      "source_completion_applied": false,
+      "id": "82b02e5d-f034-4a76-b52f-450d04785abd",
+      "question": "โดนแมงกะพรุนที่ทะเลไทยควรทำอย่างไร?",
+      "mode": "graph",
+      "k": 5,
+      "contexts": [
+        {
+          "id": "c929da45-282a-59fd-a9c9-fbe15a5ff396",
+          "document_id": "jellyfish-stings-thailand",
+          "section_index": 0,
+          "title_th": "แมงกะพรุนพิษในทะเลไทย",
+          "aliases": "แมงกะพรุน แมงกระพรุน แมงกะพรุนกล่อง หนวด น้ำส้มสายชู เที่ยวทะเล",
+          "source_url": "https://ddc.moph.go.th/doe/news.php?deptcode=doe&news=21057&news_views=302",
+          "publisher": "กรมควบคุมโรค",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:21.845417+00:00",
+          "text": "ด้าน นายแพทย์จักรรัฐ พิทยาวงศ์อานนท์ ผู้อำนวยการกองระบาดวิทยา กล่าวว่า หากสงสัยว่าอาจโดนแมงกะพรุนพิษ ขอให้ปฏิบัติดังนี้ 1. ควรรีบนำผู้บาดเจ็บขึ้นจากน้ำทะเล 2. รีบร้องขอความช่วยเหลือและโทรแจ้งหน่วยแพทย์ฉุกเฉิน 1669 3. ให้ผู้บาดเจ็บอยู่นิ่ง ๆ และห้ามขัดถู บริเวณที่ถูกแมงกะพรุนกัด เพื่อป้องกันการได้รับพิษเพิ่มขึ้น เนื่องจากการเคลื่อนไหว กระทบกระเทือนหรือสัมผัสบริเวณที่โดนหนวดแมงกะพรุนจะยิ่งกระตุ้นการยิงพิษ 4. รีบล้างพิษทันที โดยใช้น้ำส้มสายชูความเข้มข้น 4-6% ที่ใช้ในครัวเรือนทั่วไป ราดที่บริเวณที่โดนกัด อย่างต่อเนื่องกันอย่างน้อย 30 วินาที (ห้ามราดด้วยน้ำจืด น้ำเปล่า หรือแอลกอฮอล์) น้ำส้มสายชูจะหยุดยั้งไม่ให้กระเปาะพิษยิงเข็มพิษ ป้องกันไม่ให้ผู้บาดเจ็บได้รับพิษเพิ่มขึ้น 5. หากผู้บาดเจ็บไม่มีชีพจร ให้ปั๊มหัวใจก่อนราดน้ำส้มสายชู หากไม่หายใจ ให้ช่วยปฐมพยาบาลให้หายใจก่อนราดน้ำส้มสายชู และรีบนำผู้บาดเจ็บส่งโรงพยาบาล",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.2616857660925048,
+          "retrieval": "vector"
+        },
+        {
+          "id": "60946a4c-a2fa-5b83-8d0b-1fb33b73db56",
+          "document_id": "cpr",
+          "section_index": 2,
+          "title_th": "CPR ผู้ใหญ่",
+          "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+          "publisher": "St John Ambulance",
+          "age_group": "adult",
+          "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+          "text": "move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers. Lean forwards so your shoulders are over your hands, keep your arms straight and press down hard, to a depth of about 5-6cm before releasing the pressure and allowing the chest to come back up. Push at a rate of 100 to 120 per minute. Listen to instructions from the ambulance controller. They will tell you what to do and help you to push at the right speed. If you are trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or unwilling to provide rescue breaths, give continuous chest compressions. Tilt the casualty's head backwards, lift their chin, and pinch the soft part of their nose closed. Take a breath and put your mouth around the person's mouth to make a seal. Blow into their mouth steadily and firmly for up to one second, until the chest rises. Remove your mouth and watch the chest fall. This is a rescue breath, do this twice.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.1843938425798615,
+          "retrieval": "graph"
+        },
+        {
+          "id": "1163f229-9372-52e2-b5e7-1a52ac2296a2",
+          "document_id": "primary-survey",
+          "section_index": 0,
+          "title_th": "การประเมินเบื้องต้น",
+          "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+          "text": "Use the primary survey to quickly assess the situation and the casualty. Emergency advice What is the primary survey? The primary survey is a quick way to find out how to treat any life-threatening conditions a casualty may have in order of priority. We can use DR ABC to do this: Danger, Response, Airway, Breathing and Circulation. Danger. Before approaching the casualty, always make sure the area is safe. Response. Check if the casualty is responsive or unresponsive. As you approach them, introduce yourself and ask them questions to see if you can get a response. Kneel next to their chest and gently shake their shoulders, asking, ‘Are you OK?’, ‘Can you open your eyes?’. If the casualty opens their eyes, or gives another gesture, they are responsive. If they do not respond to you in any way, they are unresponsive and should be treated as quickly as possible. If there is life-threatening bleeding (massive amounts of blood pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.15705196990551978,
+          "retrieval": "graph"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "topic:jellyfish-stings-thailand",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE"
+        },
+        {
+          "from": "topic:jellyfish-stings-thailand",
+          "to": "topic:cpr",
+          "relation": "RELATED_GUIDANCE"
+        }
+      ],
+      "elapsed_seconds": 5.833,
+      "invalid_citations": [],
+      "created_at": "2026-10-12T10:23:30.200768+00:00",
+      "embedding_model": "hashed-character-TFIDF-2048",
+      "smoke_expected_topic": "jellyfish-stings-thailand",
+      "smoke_retrieval_pass": true
+    },
+    {
+      "answer": "1. ล้างแผลที่ถูกงูกัดด้วยน้ำสะอาด [S1]\n2. ประคองส่วนที่ถูกกัดให้อยู่นิ่งที่สุด [S1]\n3. จัดให้แผลอยู่ต่ำกว่าระดับหัวใจ [S1]\n4. ห้ามรัดหรือขันชะเนาะ ห้ามกรีด ดูด หรือพอกแผล [S1]\n5. พาไปโรงพยาบาลที่ใกล้ที่สุดโดยเร็ว [S1]",
+      "model": "firstaid-qwen",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1942,
+        "completion_tokens": 184
+      },
+      "generation_mode": "qwen_constrained_source_steps",
+      "source_completion_applied": false,
+      "id": "8284053e-544f-48c7-b626-c53ddb042cdc",
+      "question": "เดินป่าแล้วถูกงูกัดควรช่วยอย่างไร?",
+      "mode": "graph",
+      "k": 5,
+      "contexts": [
+        {
+          "id": "2a2c0a04-13d5-5e21-b4c0-703faa5a9308",
+          "document_id": "snake-bites",
+          "section_index": 0,
+          "title_th": "งูกัด",
+          "aliases": "งูกัด งูพิษ เดินป่า ขันชะเนาะ ดูดพิษ กรีดแผล",
+          "source_url": "https://kcmh.chulalongkornhospital.go.th/line/งูกัด/",
+          "publisher": "โรงพยาบาลจุฬาลงกรณ์ สภากาชาดไทย",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:22.069579+00:00",
+          "text": "หยุด! ความเข้าใจผิด “ถ้าถูกงูกัด แล้วต้องรัดเหนือแผล” วิธีปฐมพยาบาลเมื่อถูกงูกัด 1. ล้างแผลที่ถูกงูกัดด้วยน้ำสะอาด 2. ประคองส่วนที่ถูกงูกัด ให้อยู่นิ่งที่สุด 3. จัดท่าให้แผลอยู่ระดับที่ต่ำกว่าหัวใจและพาไปรพ.ที่ใกล้โดยเร็วที่สุด ไม่แนะนำให้รัดหรือขันเชนาะเหนือแผล ห้าม! กรีด/ดูด/พอกแผล ข้อมูล ณ วันที่ 21 กุมภาพันธ์ 2561",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.21565731156936105,
+          "retrieval": "vector"
+        },
+        {
+          "id": "bbf63af9-9b8c-5227-97ce-db74fc9ae7ff",
+          "document_id": "shock",
+          "section_index": 1,
+          "title_th": "ภาวะช็อก",
+          "aliases": "ช็อก ตัวเย็น ซีด เสียเลือด เหงื่อ",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/shock/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T07:19:40.771261+00:00",
+          "text": "supply decreases yawning and gasping for air the casualty could become unresponsive. What to do First, treat any cause of shock that you can see or that you have identified from the primary survey , such as severe bleeding . Then help the casualty to lie down. Raise their legs, supporting them on a chair. This will help to improve the blood supply to their vital organs. If available, lay them down on a rug or blanket to protect them from the cold. Call 999 or 112 for emergency help and tell ambulance control you think they are in shock. If possible, explain what you think caused it. Loosen any tight clothing around the neck, chest, and waist to make sure it doesn’t constrict their blood flow. While waiting for help to arrive, cover them with a coat or blanket to help keep them warm. Remember, fear and pain can make shock worse by increasing the body’s demand for oxygen, so try to reassure the casualty and keep them calm if you can. Monitor their level of response. If they become unresponsive at any point, prepare to treat them as an unresponsive casualty.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.16935933350199323,
+          "retrieval": "graph"
+        },
+        {
+          "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+          "document_id": "primary-survey",
+          "section_index": 2,
+          "title_th": "การประเมินเบื้องต้น",
+          "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+          "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.15769365089110238,
+          "retrieval": "graph"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "topic:snake-bites",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE"
+        },
+        {
+          "from": "topic:snake-bites",
+          "to": "topic:shock",
+          "relation": "RELATED_GUIDANCE"
+        }
+      ],
+      "elapsed_seconds": 3.878,
+      "invalid_citations": [],
+      "created_at": "2026-10-12T10:23:34.108316+00:00",
+      "embedding_model": "hashed-character-TFIDF-2048",
+      "smoke_expected_topic": "snake-bites",
+      "smoke_retrieval_pass": true
+    },
+    {
+      "answer": "1. ใช้แหนบหรือเครื่องมือถอนเห็บ จับหัวเห็บใกล้ผิวหนังแล้วดึงขึ้นเบา ๆ ด้วยแรงสม่ำเสมอ [S1]\n2. ห้ามกระชาก เผา แช่แข็ง หรือทาเนยและปิโตรเลียมเจลลี่เพื่อเอาเห็บออก [S1]\n3. ล้างบริเวณที่ถูกกัดด้วยน้ำและสบู่ [S1]\n4. ถ้าภายใน 3 เดือนหลังถูกกัดมีอาการคล้ายไข้หวัด หรือผื่นกลมหรือวงรีรอบรอยกัด ให้พบแพทย์ [S1]",
+      "model": "firstaid-qwen",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1292,
+        "completion_tokens": 211
+      },
+      "generation_mode": "qwen_constrained_source_steps",
+      "source_completion_applied": false,
+      "id": "2523ae9d-2923-4c30-a8e2-9579bb70baed",
+      "question": "เห็บติดผิวหนังต้องเอาออกอย่างไร?",
+      "mode": "graph",
+      "k": 5,
+      "contexts": [
+        {
+          "id": "3a2d973b-5c87-5654-80fb-45f67dc10a75",
+          "document_id": "tick-bite",
+          "section_index": 0,
+          "title_th": "เห็บกัดระหว่างเดินป่า",
+          "aliases": "เห็บกัด เห็บติดผิวหนัง ถอนเห็บ เดินป่า แคมป์ปิ้ง",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/tick-bite/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:18.412293+00:00",
+          "text": "Ticks attach themselves to passing animals (including humans) and bite into the skin, sucking the blood. They can carry diseases and should be removed as soon as possible. Emergency advice What is a tick bite? Ticks are very small, spider-like creatures which can be found in woodlands or grass. Ticks attach themselves to passing animals (including humans) and bite into the skin, sucking the blood. They can carry diseases and should be removed as soon as possible. If the tick is infected, you could develop Lyme disease. What to do Using a pair of tweezers or a tick-removal tool, grasp the tick’s head as close as you can to the skin and gently pull the head upwards. Use a steady and even pressure. Do not jerk the tick as this may leave parts of it embedded in the skin. Do not burn or freeze the tick - or try to remove it with butter or petroleum jelly. Clean the area with soap and water. Contact your GP surgery if you have been bitten by a tick within the last three months and you have: flu-like symptoms, such as feeling hot and shivery, headaches, aching muscles. a round or oval shaped rash around the tick bite.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "guidance_th": "ใช้แหนบหรือเครื่องมือถอนเห็บ จับที่หัวเห็บให้ใกล้ผิวหนังที่สุด แล้วดึงขึ้นอย่างนุ่มนวลด้วยแรงสม่ำเสมอ ห้ามกระชาก ห้ามเผา แช่แข็ง หรือใช้เนยหรือปิโตรเลียมเจลลี่เพื่อเอาเห็บออก ล้างบริเวณนั้นด้วยน้ำและสบู่ หากถูกเห็บกัดภายใน 3 เดือนแล้วมีอาการคล้ายไข้หวัด เช่น ร้อนสลับหนาว ปวดหัว ปวดกล้ามเนื้อ หรือมีผื่นกลมหรือวงรีรอบรอยกัด ให้ติดต่อแพทย์",
+          "translation_status": "project_translation_not_clinically_validated",
+          "score": 0.21527820544434195,
+          "retrieval": "vector"
+        }
+      ],
+      "graph_paths": [],
+      "elapsed_seconds": 3.981,
+      "invalid_citations": [],
+      "created_at": "2026-10-12T10:23:38.097829+00:00",
+      "embedding_model": "hashed-character-TFIDF-2048",
+      "smoke_expected_topic": "tick-bite",
+      "smoke_retrieval_pass": true
+    },
+    {
+      "answer": "1. นั่งพักในที่เย็นและดื่มน้ำหรือของเหลวใสให้เพียงพอ [S1]\n2. หลีกเลี่ยงคาเฟอีนและแอลกอฮอล์ [S1]\n3. อาจใช้ผงเกลือแร่ชนิดดื่ม โดยทำตามคำแนะนำบนซองสำหรับเด็กหรือผู้ใหญ่ [S1]\n4. ถ้ายังไม่สบายหลังดื่มน้ำ หรือดื่มแล้วอาเจียนจนเก็บน้ำไว้ไม่ได้ ให้พบแพทย์ [S1]",
+      "model": "firstaid-qwen",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1805,
+        "completion_tokens": 183
+      },
+      "generation_mode": "qwen_constrained_source_steps",
+      "source_completion_applied": false,
+      "id": "cd8fc567-e385-44aa-97e8-9b6f2ea34205",
+      "question": "เดินป่าจนกระหายน้ำ ปากแห้ง ปัสสาวะน้อย ต้องทำอย่างไร?",
+      "mode": "graph",
+      "k": 5,
+      "contexts": [
+        {
+          "id": "7e1c3aec-8589-5002-8cbf-f6c1a08b4137",
+          "document_id": "dehydration",
+          "section_index": 1,
+          "title_th": "ภาวะขาดน้ำ",
+          "aliases": "ขาดน้ำ กระหายน้ำ ปากแห้ง ปัสสาวะน้อย เดินป่า ท่องเที่ยว",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/dehydration/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:19.688170+00:00",
+          "text": "absence of tears when crying, or significantly reduced wet nappies. Young children can deteriorate quickly. Older people and those with long-term health conditions may also be more at risk of dehydration during hot weather. What to do Treatment of dehydration: Encourage the person to sit down and rest in a cool place. Encourage the person to drink plenty of water or other clear fluids. Avoid caffeine and alcohol. Consider the use of oral rehydration sachets which can help replace salt and minerals the person has lost. These can be bought from a pharmacy. Follow the instructions on the packet for the right dose for children and adults. If dehydration is the result of very hot weather, see our advice on heat exhaustion . Keep checking on the person. If they still feel unwell after rehydrating, or they are not able to keep the fluids down (for example, due to persistent or severe vomiting), encourage them to seek medical advice. If left untreated, someone with dehydration can develop heat exhaustion, which is more serious, so it’s important to make sure they rehydrate themselves as soon as possible.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "guidance_th": "ให้นั่งพักในที่เย็น ดื่มน้ำหรือของเหลวใสให้เพียงพอ หลีกเลี่ยงคาเฟอีนและแอลกอฮอล์ อาจใช้ผงเกลือแร่ชนิดดื่มตามคำแนะนำบนซองสำหรับเด็กหรือผู้ใหญ่ เพื่อทดแทนเกลือและแร่ธาตุที่สูญเสีย หากยังไม่สบายหลังดื่มน้ำทดแทน หรือดื่มแล้วอาเจียนจนเก็บน้ำไว้ไม่ได้ ให้พบแพทย์ หากเกิดจากอากาศร้อนให้ตรวจคำแนะนำเรื่องเพลียแดดร่วมด้วย",
+          "translation_status": "project_translation_not_clinically_validated",
+          "score": 0.28105674869438835,
+          "retrieval": "vector"
+        },
+        {
+          "id": "b5a45ccf-b45c-58cf-a37d-357e2a49d9f4",
+          "document_id": "dehydration",
+          "section_index": 0,
+          "title_th": "ภาวะขาดน้ำ",
+          "aliases": "ขาดน้ำ กระหายน้ำ ปากแห้ง ปัสสาวะน้อย เดินป่า ท่องเที่ยว",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/dehydration/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:19.688170+00:00",
+          "text": "Dehydration can develop into a more serious condition if left untreated. Find out what to look for and what to do. Emergency advice What is dehydration? Dehydration happens when someone loses more fluid than they take in. The risk is higher in very hot or humid conditions so make sure you are sipping lots of water at regular intervals and taking other measures to stay cool. Possible causes include: excess sweating during exercise or sport prolonged exposure to the sun or hot/humid conditions sweating from a raised body temperature - for example, due to a fever loss of fluid from severe or persistent diarrhoea and vomiting. Signs and symptoms How to spot dehydration: There are four key things to look for if someone is suffering from dehydration: They may complain of headaches and light-headedness Dry mouth, eyes, and lips Passing only infrequent amounts of darker urine Have muscle cramps Special attention should be paid to babies and young children. In addition to the above, dehydration may show as pale or mottled skin, sunken eyes, absence of tears when crying, or significantly reduced wet nappies. Young children can deteriorate quickly. Older people and those with long-term health conditions may also be more at risk of dehydration during hot weather. What to do Treatment of dehydration:",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "guidance_th": "ให้นั่งพักในที่เย็น ดื่มน้ำหรือของเหลวใสให้เพียงพอ หลีกเลี่ยงคาเฟอีนและแอลกอฮอล์ อาจใช้ผงเกลือแร่ชนิดดื่มตามคำแนะนำบนซองสำหรับเด็กหรือผู้ใหญ่ เพื่อทดแทนเกลือและแร่ธาตุที่สูญเสีย หากยังไม่สบายหลังดื่มน้ำทดแทน หรือดื่มแล้วอาเจียนจนเก็บน้ำไว้ไม่ได้ ให้พบแพทย์ หากเกิดจากอากาศร้อนให้ตรวจคำแนะนำเรื่องเพลียแดดร่วมด้วย",
+          "translation_status": "project_translation_not_clinically_validated",
+          "score": 0.27409273025129577,
+          "retrieval": "vector"
+        },
+        {
+          "id": "cd238076-c1ed-5b14-b541-23fa8f3c45f5",
+          "document_id": "heat-exhaustion",
+          "section_index": 1,
+          "title_th": "เพลียแดด",
+          "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T07:19:54.901831+00:00",
+          "text": "direct sun during the hottest part of the day, from 11am to 3pm. Heat exhaustion isn't always caused by weather and can be a consequence of the body producing more heat than it can lose during vigorous or endurance exercise. Some prescribed medications can make people more susceptible to heat illness. For example, Selective Serotonin Reuptake Inhibitors (SSRIs) like Sertraline and Tricyclic Antidepressants like Amitriptyline. Recreational drugs such as ecstasy can also affect a person's ability to regulate their temperature. It is important to spot and treat heat exhaustion, as it can lead to heatstroke . Signs and symptoms Look for: dizziness and confusion loss of appetite and feeling sick sweating with pale, clammy skin cramps in the arms, legs, and stomach fast, weakening pulse and rapid breathing What to do Help them to lie down in a cool, shaded place and raise their legs. Give them lots of water to drink. They can also have isotonic sports drinks. Check their breathing, pulse, and responsiveness. Suggest they get medical advice. Call 999 or 112 if you are concerned.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.1853702872291138,
+          "retrieval": "graph"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "topic:dehydration",
+          "to": "topic:heat-exhaustion",
+          "relation": "RELATED_GUIDANCE"
+        }
+      ],
+      "elapsed_seconds": 3.762,
+      "invalid_citations": [],
+      "created_at": "2026-10-12T10:23:41.866005+00:00",
+      "embedding_model": "hashed-character-TFIDF-2048",
+      "smoke_expected_topic": "dehydration",
+      "smoke_retrieval_pass": true
+    },
+    {
+      "answer": "1. คลุมผิวด้วยเสื้อผ้าบางเบาและพาออกจากแดด [S1]\n2. ให้จิบน้ำเย็น [S1]\n3. ใช้น้ำเย็นลดความร้อนของผิวบริเวณที่ไหม้ 10 นาที [S1]\n4. ทาคาลาไมน์เพื่อบรรเทาผิวไหม้แดดเล็กน้อย [S1]\n5. ถ้ามีตุ่มพอง หรือมีอาการเพลียแดดหรือลมแดดร่วมด้วย ให้ขอความช่วยเหลือทางการแพทย์ [S1]",
+      "model": "firstaid-qwen",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 193
+      },
+      "generation_mode": "qwen_constrained_source_steps",
+      "source_completion_applied": false,
+      "id": "f8031013-1873-4638-b8eb-7cb110e2020d",
+      "question": "เที่ยวทะเลแล้วผิวไหม้แดดควรทำอย่างไร?",
+      "mode": "graph",
+      "k": 5,
+      "contexts": [
+        {
+          "id": "f966f08c-79af-51a3-bcb0-3a0caf5065a5",
+          "document_id": "sunburn",
+          "section_index": 0,
+          "title_th": "ผิวไหม้แดด",
+          "aliases": "ผิวไหม้แดด แดดเผา ผิวแดง เที่ยวทะเล",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/sunburn/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:20.248470+00:00",
+          "text": "Sunburn is caused by over exposure to the sun, a sunlamp, or a sunbed. Emergency advice What is sunburn? Whether you’re out in the park or relaxing on the beach, it’s important to avoid too much exposure to the sun by covering up with clothing, staying in the shade, and applying high factor sunscreen. Most sunburns are mild, but in severe cases the skin can become damaged, turn lobster red, and blister. People with sunburn may also develop heat exhaustion . Signs and symptoms What to look for: reddened skin pain in the area of the burn blistering (in some cases) What to do Cover the skin with light clothing and move them out of the sun. Give cold water to sip. Cool the skin with cool water for 10 minutes. Apply calamine lotion to soothe mild sunburn. If there are blisters, advise that they see a healthcare professional. Treat any symptoms of heat exhaustion or heatstroke and get medical help.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "guidance_th": "คลุมผิวด้วยเสื้อผ้าบางเบาและพาออกจากแดด ให้จิบน้ำเย็น ลดความร้อนของผิวบริเวณที่ไหม้ด้วยน้ำเย็น 10 นาที ทาคาลาไมน์เพื่อบรรเทาอาการไหม้แดดเล็กน้อย ถ้ามีตุ่มพองให้พบบุคลากรสุขภาพ หากมีอาการเพลียแดดหรือลมแดดร่วมด้วย ให้ช่วยตามอาการและขอความช่วยเหลือทางการแพทย์",
+          "translation_status": "project_translation_not_clinically_validated",
+          "score": 0.21733709977783278,
+          "retrieval": "vector"
+        },
+        {
+          "id": "cd238076-c1ed-5b14-b541-23fa8f3c45f5",
+          "document_id": "heat-exhaustion",
+          "section_index": 1,
+          "title_th": "เพลียแดด",
+          "aliases": "เพลียแดด ร้อน เหงื่อ เวียนหัว",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/heat-exhaustion/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T07:19:54.901831+00:00",
+          "text": "direct sun during the hottest part of the day, from 11am to 3pm. Heat exhaustion isn't always caused by weather and can be a consequence of the body producing more heat than it can lose during vigorous or endurance exercise. Some prescribed medications can make people more susceptible to heat illness. For example, Selective Serotonin Reuptake Inhibitors (SSRIs) like Sertraline and Tricyclic Antidepressants like Amitriptyline. Recreational drugs such as ecstasy can also affect a person's ability to regulate their temperature. It is important to spot and treat heat exhaustion, as it can lead to heatstroke . Signs and symptoms Look for: dizziness and confusion loss of appetite and feeling sick sweating with pale, clammy skin cramps in the arms, legs, and stomach fast, weakening pulse and rapid breathing What to do Help them to lie down in a cool, shaded place and raise their legs. Give them lots of water to drink. They can also have isotonic sports drinks. Check their breathing, pulse, and responsiveness. Suggest they get medical advice. Call 999 or 112 if you are concerned.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.1780880252907655,
+          "retrieval": "graph"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "topic:sunburn",
+          "to": "topic:heat-exhaustion",
+          "relation": "RELATED_GUIDANCE"
+        }
+      ],
+      "elapsed_seconds": 3.933,
+      "invalid_citations": [],
+      "created_at": "2026-10-12T10:23:45.807538+00:00",
+      "embedding_model": "hashed-character-TFIDF-2048",
+      "smoke_expected_topic": "sunburn",
+      "smoke_retrieval_pass": true
+    },
+    {
+      "answer": "1. พาเข้าที่กำบังลมหรือในอาคาร เปลี่ยนเสื้อผ้าเปียกเป็นแห้งและคลุมศีรษะ [S1]\n2. รองตัวด้วยวัสดุแห้งหนา แล้วห่มผ้าหรือใช้ถุงนอนแห้ง [S1]\n3. อยู่ด้วยตลอดและติดตามการหายใจกับการตอบสนอง [S1]\n4. ให้เครื่องดื่มอุ่นได้เมื่อรู้สึกตัวดีเต็มที่เท่านั้น ห้ามให้แอลกอฮอล์หรือวางของร้อนใกล้ตัว [S1]\n5. โทร 1669 หากอยู่ไกลและโทรไม่ได้ ให้ส่งคน 2 คนไปขอความช่วยเหลือด้วยกัน [S1]",
+      "model": "firstaid-qwen",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 2253,
+        "completion_tokens": 276
+      },
+      "generation_mode": "qwen_constrained_source_steps",
+      "source_completion_applied": false,
+      "id": "4f09c64d-288c-478d-a6ad-cac443580bae",
+      "question": "ตั้งแคมป์แล้วเสื้อเปียก หนาวสั่น ตัวเย็น ต้องช่วยอย่างไร?",
+      "mode": "graph",
+      "k": 5,
+      "contexts": [
+        {
+          "id": "ac7f3f39-1a28-5324-ad38-390b256e379f",
+          "document_id": "hypothermia",
+          "section_index": 0,
+          "title_th": "อุณหภูมิร่างกายต่ำ",
+          "aliases": "ตัวเย็น หนาวสั่น อุณหภูมิต่ำ เสื้อเปียก เดินป่า ตั้งแคมป์",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/hypothermia/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:21.459580+00:00",
+          "text": "Hypothermia can become life threatening quickly, so it’s important to treat it straight away. Find out what to look for and how to perform first aid. Emergency advice What is hypothermia? Hypothermia is a condition that occurs when someone’s body temperature drops below 35°C (95°F). Normal body temperature is around 37°C (98. 6°F). Hypothermia can become life threatening quickly, so it’s important to treat someone with hypothermia straight away. Signs and symptoms Look for: shivering, cold and pale with dry skin unusually tired, confused, and irrational behaviour reduced level of response slow and shallow breathing slow and weakening pulse A baby may: be cold to touch have mottled (blotchy) skin be quiet and sleepy refuse to feed What to do if treating hypothermia outdoors If the casualty is outside, try to get them indoors. If you are unable to get them indoors, try to take them to a sheltered place as quickly as possible, shielding the casualty from the wind. Remove and replace any wet clothing and make sure their head is covered. Do not give them your clothes - it is important for you to stay warm yourself.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "guidance_th": "เมื่ออยู่กลางแจ้งให้พาเข้าที่ร่มกำบังลมหรือในอาคาร เปลี่ยนเสื้อผ้าเปียกเป็นแห้งและคลุมศีรษะ ผู้ช่วยต้องรักษาความอบอุ่นของตนเอง รองตัวด้วยวัสดุแห้งหนาเพื่อกันความเย็นจากพื้น แล้วใช้ถุงนอนแห้ง ผ้าห่ม หรือผ้าห่มฉุกเฉิน โทรขอความช่วยเหลือฉุกเฉิน (ต้นฉบับ 999 หรือ 112; ในไทย 1669) อย่าทิ้งผู้บาดเจ็บไว้คนเดียว หากอยู่ไกลและโทรไม่ได้ให้ส่งคน 2 คนไปขอความช่วยเหลือด้วยกัน ให้เครื่องดื่มอุ่นและอาหารให้พลังงานได้เมื่อรู้สึกตัวดีเต็มที่เท่านั้น ติดตามการหายใจและการตอบสนอง ระหว่างอยู่ในอาคารให้ห่มผ้าหลายชั้นและทำห้องให้อุ่นประมาณ 25 องศาเซลเซียส ห้ามวางของร้อนหรือไฟใกล้ตัวเพราะอาจลวก ห้ามให้แอลกอฮอล์ หากไม่ทราบสาเหตุของตัวเย็นให้พบแพทย์",
+          "translation_status": "project_translation_not_clinically_validated",
+          "score": 0.2777971219931704,
+          "retrieval": "vector"
+        },
+        {
+          "id": "8645aeea-99f1-5ecf-87f3-aa58d6a28563",
+          "document_id": "hypothermia",
+          "section_index": 1,
+          "title_th": "อุณหภูมิร่างกายต่ำ",
+          "aliases": "ตัวเย็น หนาวสั่น อุณหภูมิต่ำ เสื้อเปียก เดินป่า ตั้งแคมป์",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/hypothermia/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T10:12:21.459580+00:00",
+          "text": "place as quickly as possible, shielding the casualty from the wind. Remove and replace any wet clothing and make sure their head is covered. Do not give them your clothes - it is important for you to stay warm yourself. Try to protect the casualty from the ground. Lay them on a thick layer of dry insulating material, such as pine branches, heather, or bracken. If possible, put them in a dry sleeping bag or cover them with blankets. If available, wrap them in a foil survival blanket. You can use your own body to shelter them and keep them warm. Call 999 or 112 for emergency help. Do not leave the casualty alone. Somebody must be with them at all times. If you are in a remote area and cannot call for emergency help, send two people to get help together. If the casualty is fully alert, offer them warm drinks and high energy food such as chocolate. Monitor their breathing and level of responsiveness while waiting for help to arrive. What to do if treating hypothermia indoors If you are indoors, cover the casualty with layers of blankets and warm the room to about 25°C (77°F). Do not place any direct heat such as hot water bottles or fires near a casualty as this can cause burns.",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "guidance_th": "เมื่ออยู่กลางแจ้งให้พาเข้าที่ร่มกำบังลมหรือในอาคาร เปลี่ยนเสื้อผ้าเปียกเป็นแห้งและคลุมศีรษะ ผู้ช่วยต้องรักษาความอบอุ่นของตนเอง รองตัวด้วยวัสดุแห้งหนาเพื่อกันความเย็นจากพื้น แล้วใช้ถุงนอนแห้ง ผ้าห่ม หรือผ้าห่มฉุกเฉิน โทรขอความช่วยเหลือฉุกเฉิน (ต้นฉบับ 999 หรือ 112; ในไทย 1669) อย่าทิ้งผู้บาดเจ็บไว้คนเดียว หากอยู่ไกลและโทรไม่ได้ให้ส่งคน 2 คนไปขอความช่วยเหลือด้วยกัน ให้เครื่องดื่มอุ่นและอาหารให้พลังงานได้เมื่อรู้สึกตัวดีเต็มที่เท่านั้น ติดตามการหายใจและการตอบสนอง ระหว่างอยู่ในอาคารให้ห่มผ้าหลายชั้นและทำห้องให้อุ่นประมาณ 25 องศาเซลเซียส ห้ามวางของร้อนหรือไฟใกล้ตัวเพราะอาจลวก ห้ามให้แอลกอฮอล์ หากไม่ทราบสาเหตุของตัวเย็นให้พบแพทย์",
+          "translation_status": "project_translation_not_clinically_validated",
+          "score": 0.2761781770311994,
+          "retrieval": "vector"
+        },
+        {
+          "id": "171b3288-bf9f-53a0-9aaf-e8286c0219fb",
+          "document_id": "primary-survey",
+          "section_index": 2,
+          "title_th": "การประเมินเบื้องต้น",
+          "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+          "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+          "publisher": "St John Ambulance",
+          "age_group": "all",
+          "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+          "text": "do something called 'agonal gasping'. They can open their mouths, extend their neck, and take usually slow, sometimes noisy gasps. This is not normal breathing and, in a patient with no signs of life, is a sign of cardiac arrest. If they are unresponsive and not breathing normally, you need to call 999 or 112 for emergency help and start CPR straight away. Ask a helper to find and bring a defibrillator (AED). If they are responsive and breathing normally, move on to circulation. Circulation. Once you have established that they are breathing normally, look and check for any signs of severe bleeding . If they are bleeding severely, you will need to control and treat the bleeding by applying direct pressure to the wound. Call 999 or 112 for emergency help. If they are unresponsive and breathing normally but with no bleeding, put them in the recovery position and call 999 or 112 for emergency help. Once you have completed your primary survey and treated any life-threatening conditions, you can move on to the secondary survey (top-to-toe survey).",
+          "review_status": "official_source_not_clinically_validated_in_this_project",
+          "score": 0.20579429055882598,
+          "retrieval": "graph"
+        }
+      ],
+      "graph_paths": [
+        {
+          "from": "topic:hypothermia",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE"
+        }
+      ],
+      "elapsed_seconds": 5.297,
+      "invalid_citations": [],
+      "created_at": "2026-10-12T10:23:51.126603+00:00",
+      "embedding_model": "hashed-character-TFIDF-2048",
+      "smoke_expected_topic": "hypothermia",
+      "smoke_retrieval_pass": true
+    }
+  ]
+}

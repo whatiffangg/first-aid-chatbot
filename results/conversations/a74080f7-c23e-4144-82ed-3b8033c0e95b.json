@@ -1,0 +1,180 @@
+{
+  "answer": "ก่อนเข้าช่วยต้องป้องกันตัวเองโดยสวมถุงมือและถ้ามีควรสวมเสื้อผ้าป้องกันและแว่นตา เพื่อไม่ให้สัมผัสสารเคมี [S1][S2]  \n\nไม่ควรพยายามทำให้สารเคมีเป็นกลางด้วยการเติมสารอื่น ไม่ว่าจะเป็นกรดหรือเบส เพราะอาจทำให้เกิดความเสียหายเพิ่มเติม หรือมีความเสี่ยงต่อสุขภาพ [S1]  \n\nควรทำให้ผิวหนังเย็นโดยการใช้น้ำเย็นหรืออุ่นที่ไหลอย่างต่อเนื่อง ประมาณ 10-20 นาที จนกว่าจะมีการช่วยเหลือจากแพทย์ [S1][S2]  \n\nหากผู้ป่วยมีอาการรุนแรง เช่น ปวดรุนแรง หรือหายใจไม่ออก ควรเรียกสายด่วน 1669 ทันที [S2]  \n\nอย่าลังเลในการเรียกช่วยเหลือ แม้จะเป็นแผลเล็ก เพราะทุกกรณีของแผลไหม้สารเคมีต้องได้รับการดูแลด่วน [S2]  \n\nหากมีคนอื่นช่วย ให้คนนั้นสวมถุงมือและช่วยถอดเสื้อผ้าที่เป็นสารเคมีออก ขณะที่คุณดำเนินการเย็นผิวหนัง [S1]",
+  "usage": {
+    "completion_tokens": 382,
+    "prompt_tokens": 2162,
+    "total_tokens": 2544,
+    "prompt_tokens_details": {
+      "cached_tokens": 1560
+    }
+  },
+  "finish_reason": "stop",
+  "model": "Qwen3-4B-Instruct-2507",
+  "question": "สารเคมีหกใส่ผิวหนังผู้ใหญ่ ก่อนเข้าช่วยต้องป้องกันตัวอย่างไร และควรเทสารอีกชนิดไปทำให้เป็นกลางไหม?",
+  "mode": "graph",
+  "k": 5,
+  "elapsed_seconds": 8.346,
+  "contexts": [
+    {
+      "id": "7c20c4bd-4571-56ec-8a5b-42f3680bcd31",
+      "document_id": "chemical-burn",
+      "section_index": 1,
+      "title_th": "แผลไหม้สารเคมี",
+      "aliases": "สารเคมี กรด ด่าง ผิวหนัง แผลไหม้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/chemical-burn/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:43.180626+00:00",
+      "text": "protection too - this will prevent you from coming into contact with the chemical. If inside, ventilate the area such as opening windows or doors to disperse any fumes. If appropriate, remove the casualty outside to avoid others being contaminated. If the chemical is in powder form, it can be brushed or patted off the skin. Remove clothing as this could be contaminated. If it is safe to, seal the chemical container. Flood the burn with cool or lukewarm running water until the ambulance arrives, to disperse the chemical and stop it burning. When cooling, pour the water away from yourself to avoid being hit by any chemical splashes. Ensure any contaminated water does not collect near the casualty. Do not delay starting treatment by searching for an antidote. Never attempt to neutralise acid or alkali burns unless you are trained to do so. Carefully remove any contaminated clothing. If there is someone else available to help you and is wearing protective gloves, they can do this while you continue to cool the burn. If the burn is minor and you have not yet called for help, send the casualty to hospital. Monitor their level of response whilst waiting for help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5530797645924702,
+      "retrieval": "vector"
+    },
+    {
+      "id": "2b7ffc50-27f9-5a21-ae51-3c7df5a78075",
+      "document_id": "chemical-burn",
+      "section_index": 0,
+      "title_th": "แผลไหม้สารเคมี",
+      "aliases": "สารเคมี กรด ด่าง ผิวหนัง แผลไหม้",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/chemical-burn/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:43.180626+00:00",
+      "text": "Chemical burns can occur from common household products, in industry, or from malicious acid attacks. Find out what to look for and how to perform first aid. Emergency advice What are chemical burns? Chemicals can irritate and burn the skin causing damage that can sometimes be life threatening. These burns can occur in industry or in the home from common household products like bleach, detergents, and ammonia. They can also occur from malicious acid attacks. Anyone with a chemical burn will need emergency help as soon as possible. Signs and symptoms Look for: intense stinging pain evidence of the chemicals nearby. blistering, peeling, discoloration or swelling of the affected area. What to do If the burn is severe, call 999 or 112 for emergency help. Pass on any details you may have of the chemical to ambulance control. If possible, ask someone else to call so that you can continue to cool the burn. First, make sure that the area around you and the casualty is safe. Wear protective gloves and if available, an apron and eye protection too - this will prevent you from coming into contact with the chemical. If inside, ventilate the area such as opening windows or doors to disperse any fumes. If appropriate, remove the casualty outside to avoid others being contaminated.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.5291555606033161,
+      "retrieval": "vector"
+    },
+    {
+      "id": "9eefdf23-b910-5d29-ada1-8fdbc8a6c31a",
+      "document_id": "anaphylaxis",
+      "section_index": 1,
+      "title_th": "แพ้รุนแรง",
+      "aliases": "แพ้รุนแรง แอนาฟิแล็กซิส หายใจลำบาก ลิ้นบวม",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:51.257279+00:00",
+      "text": "medicines such as penicillin, and some natural substances such as latex. Someone at risk of anaphylaxis may know what they are allergic to and carry medication, such as an auto-injector, with them to use in an emergency. Signs and symptoms a red, itchy rash, or raised area of skin (weals/hives) often around the face and neck red, itchy, watery eyes rapid swelling of hands, feet, or face, particularly lips and neck abdominal pain, vomiting, or diarrhoea difficulty breathing with wheezing or noisy airway swelling of tongue and throat with puffiness around eyes confusion and agitation signs of shock leading to collapse and unresponsiveness What to do If someone’s having a severe allergic reaction, then they may carry medication to inject themselves - an auto-injector. This is a pre-filled injection device containing adrenaline which when injected, can help reduce the body’s allergic reaction. Check if they have one, and if they do, help them to use it or do it yourself straight away following the instructions. Call 999 or 112 and tell ambulance control that you suspect anaphylaxis . Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.42605758312091974,
+      "retrieval": "vector"
+    },
+    {
+      "id": "4913dce1-ea76-5594-954b-9a702aa245d7",
+      "document_id": "choking",
+      "section_index": 1,
+      "title_th": "ผู้ใหญ่สำลัก",
+      "aliases": "สำลัก อุดกั้นทางเดินหายใจ ไอ พูดไม่ได้ ผู้ใหญ่",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/choking/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:48.440591+00:00",
+      "text": "to lean forwards, supporting their upper body with one hand. With the heel of your other hand, give them five sharp back blows between their shoulder blades. After each back blow, check to see if there’s anything in their mouth. Squeeze it out. If back blows fail to clear the obstruction, give five abdominal thrusts. To do this, stand behind them and put your arms around their waist. Place one hand in a clenched fist between their belly button and the bottom of their chest. With your other hand, grasp your fist and pull sharply inwards and upwards up to five times. Check their mouth again after each thrust. If the blockage has not cleared, call 999 or 112 for emergency help straight away. Repeat five back blows and five abdominal thrusts until help arrives, checking their mouth each time. If they become unresponsive at any point, prepare to start adult CPR .",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.39571289595917597,
+      "retrieval": "vector"
+    },
+    {
+      "id": "53e001f4-2760-56ea-9e09-da3f6c57f5d4",
+      "document_id": "cuts-and-grazes",
+      "section_index": 0,
+      "title_th": "แผลถลอกและแผลเล็ก",
+      "aliases": "แผลถลอก แผลเล็ก แผลบาด ทำแผล",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cuts-and-grazes/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:39.063067+00:00",
+      "text": "Cuts and grazes are common injuries that can usually be treated at home. Emergency advice What is a cut? A cut is when the skin is fully broken. What is a graze? A graze is when only the top layers of skin are scraped off. What to do Clean the wound by rinsing it under running water or using sterile wipes. Do not rub . Pat the wound dry using a gauze swab and cover it with sterile gauze. If you don’t have these, use a clean, non-fluffy cloth, like a tea towel. For a cut, raise and support the injured part above the level of the heart. Avoid touching the wound. Clean around the wound with soap and water. Make sure you are wiping away from the wound, using a clean swab for each stroke. Pat dry. Remove the cloth or gauze covering the wound and apply a sterile dressing or a large plaster. Seek medical help if: a wound won’t stop bleeding a foreign object is embedded in the wound – like a splinter of wood or glass the wound is from a human or animal bite you think the wound might be infected you are unsure whether the casualty has been immunised against tetanus.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.3953397298590213,
+      "retrieval": "vector"
+    },
+    {
+      "id": "1163f229-9372-52e2-b5e7-1a52ac2296a2",
+      "document_id": "primary-survey",
+      "section_index": 0,
+      "title_th": "การประเมินเบื้องต้น",
+      "aliases": "ประเมิน ปฐมพยาบาล DRABC ความปลอดภัย ไม่รู้สึกตัว หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/primary-survey/",
+      "publisher": "St John Ambulance",
+      "age_group": "all",
+      "retrieved_at": "2026-10-12T07:19:34.844585+00:00",
+      "text": "Use the primary survey to quickly assess the situation and the casualty. Emergency advice What is the primary survey? The primary survey is a quick way to find out how to treat any life-threatening conditions a casualty may have in order of priority. We can use DR ABC to do this: Danger, Response, Airway, Breathing and Circulation. Danger. Before approaching the casualty, always make sure the area is safe. Response. Check if the casualty is responsive or unresponsive. As you approach them, introduce yourself and ask them questions to see if you can get a response. Kneel next to their chest and gently shake their shoulders, asking, ‘Are you OK?’, ‘Can you open your eyes?’. If the casualty opens their eyes, or gives another gesture, they are responsive. If they do not respond to you in any way, they are unresponsive and should be treated as quickly as possible. If there is life-threatening bleeding (massive amounts of blood pouring, gushing, or spurting from a significant injury) it must be dealt with before moving on to the airway. Treat life-threatening bleeding by applying direct pressure to the wound before managing their airway. Call 999 or 112 for emergency help.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.3426630388859976,
+      "retrieval": "graph"
+    },
+    {
+      "id": "19f8c01f-cb57-5d63-99b1-54b7c2e9c4df",
+      "document_id": "cpr",
+      "section_index": 1,
+      "title_th": "CPR ผู้ใหญ่",
+      "aliases": "กู้ชีพ กดหน้าอก ซีพีอาร์ ผู้ใหญ่ หัวใจหยุดเต้น ไม่หายใจ",
+      "source_url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+      "publisher": "St John Ambulance",
+      "age_group": "adult",
+      "retrieved_at": "2026-10-12T07:19:35.981400+00:00",
+      "text": "a helper to call 999 or 112 for an ambulance while you start CPR. Ask a helper to find and bring a defibrillator, if available. Ask your helper to put the phone on speaker and hold it out towards you. If you are on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Do not leave the casualty to look for a defibrillator yourself. If there is someone else with you, send them to get one. The ambulance controller can tell them where the nearest defibrillator is. If you're on your own, use the hands-free speaker on a phone so you can start CPR while speaking to ambulance control. Start chest compressions. Ideally, this should be on a firm surface. For example, if they are on a bed, and if it is safe for you to do so, move them to the floor. Kneel close to the casualty and put the heel of your hand on the middle of their chest. Put your other hand on top of your first hand and if you can, interlock your fingers.",
+      "review_status": "official_source_not_clinically_validated_in_this_project",
+      "score": 0.31167046599379566,
+      "retrieval": "graph"
+    }
+  ],
+  "graph_paths": [
+    {
+      "document_id": "primary-survey",
+      "steps": [
+        {
+          "from": "topic:anaphylaxis",
+          "to": "topic:primary-survey",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/anaphylaxis/",
+            "https://www.sja.org.uk/first-aid-advice/primary-survey/"
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "cpr",
+      "steps": [
+        {
+          "from": "topic:choking",
+          "to": "topic:cpr",
+          "relation": "RELATED_GUIDANCE",
+          "source_urls": [
+            "https://www.sja.org.uk/first-aid-advice/choking/",
+            "https://www.sja.org.uk/first-aid-advice/cpr/"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    1,
+    2
+  ],
+  "invalid_citations": [],
+  "citation_validation": "IDs validated only; claim support requires evaluation",
+  "config": {
+    "chat_provider": "openai_compatible",
+    "chat_url": "http://127.0.0.1:8090/v1",
+    "chat_model": "Qwen3-4B-Instruct-2507",
+    "embedding_url": "http://127.0.0.1:8091/v1",
+    "embedding_model": "Qwen3-Embedding-0.6B",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "max_tokens": 650,
+    "k": 5,
+    "candidate_k": 12,
+    "graph_hops": 1,
+    "graph_extra_documents": 3,
+    "min_similarity": 0.3,
+    "chunk_words": 220,
+    "overlap_words": 40,
+    "context_char_budget": 10000
+  },
+  "id": "a74080f7-c23e-4144-82ed-3b8033c0e95b",
+  "created_at": "2026-10-12T07:41:12.476376+00:00"
+}
